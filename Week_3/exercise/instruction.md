@@ -6,7 +6,7 @@ You will make a website which looks like: </br>
 
 ## 📑 Instruction
 
-1. Create a directory called `Week3`
+1. Create a directory called `Week_3`
 2. Create `exercise_[your_name].html` file in the directory
 - Substitute your name on `[your_name]` ex) `exercise_Kyochul.html`
 3. Write your own code to make the website like the picture
