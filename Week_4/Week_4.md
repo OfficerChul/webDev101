@@ -40,6 +40,10 @@ On Windows, the shortcut is: `CTRL + /` · On Mac, the shortcut is: `Command + /
 ### CSS stands for Cascading Style Sheet language.
 ### It used for describing presentation of document written in markup language such as HTML.
 
+### HTML color codes
+HTML color codes are hexadecimal triplets representing the colors red, green, and blue (#RRGGBB).
+> ex) `#FF0000` <- this is red
+
 ### Example
 ```
 <!DOCTYPE html>
@@ -59,6 +63,21 @@ On Windows, the shortcut is: `CTRL + /` · On Mac, the shortcut is: `Command + /
    </body>	
 </html>
 ```
+
+### Syntax
+```
+[selector] { [property]: [value] }
+```
+ex)
+```
+h1 {color: #36CFFF}
+```
+
+- **selector**: A selector is an HTML tag at which a style will be applied.
+- **property**: A property is a type of attribute of the HTML tag.
+- **value**: A value is a "style", like how are you going to change its style.
+
+
 
 
 ## 🏠 Assignment
