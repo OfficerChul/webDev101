@@ -44,7 +44,28 @@ On Windows, the shortcut is: `CTRL + /` · On Mac, the shortcut is: `Command + /
 HTML color codes are hexadecimal triplets representing the colors red, green, and blue (#RRGGBB).
 > ex) `#FF0000` <- this is red
 
-### Example
+### Syntax
+```
+[selector] { [property]: [value] }
+```
+ex)
+```
+h1 {color: #36CFFF}
+```
+
+- **selector**: A selector is an HTML tag at which a style will be applied.
+- **property**: A property is a type of attribute of the HTML tag.
+- **value**: A value is a "style", like how are you going to change its style.
+
+### How to apply the CSS file to HTML file
+There are two ways to apply
+1. inline CSS
+2. external CSS
+
+### inline CSS
+Putting CSS code inside of the HTML `<head>` tag using `<style>` tag.
+
+#### Example for inline CSS
 ```
 <!DOCTYPE html>
 <html>
@@ -63,20 +84,10 @@ HTML color codes are hexadecimal triplets representing the colors red, green, an
    </body>	
 </html>
 ```
+### external CSS
+Write CSS code in the file with `.css` extension. Normally, people use `style.css` as the name of CSS file. Link the CSS file and HTML file by using `<link>` tag in the `<head>` tag.
 
-### Syntax
-```
-[selector] { [property]: [value] }
-```
-ex)
-```
-h1 {color: #36CFFF}
-```
-
-- **selector**: A selector is an HTML tag at which a style will be applied.
-- **property**: A property is a type of attribute of the HTML tag.
-- **value**: A value is a "style", like how are you going to change its style.
-
+#### Example for external CSS
 
 
 
