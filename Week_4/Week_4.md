@@ -36,6 +36,37 @@ On Windows, the shortcut is: `CTRL + /` · On Mac, the shortcut is: `Command + /
 
 ## 🛕 HTML
 
+### HTML attribute
+Attributes provide additional information about elements and are always specified in the start tag.
+
+- `href` attribute
+> `<a href="https://kyochul-website.netlify.app/">Kyochul Jang's website</a>`
+- `src` and `alt` attribute
+> `<img src="https://kyochul-website.netlify.app/static/media/logo.1913bc354a8f0f32dd0c.png" alt="Kyochul's Logo" />`
+- `lang` attribute
+> `<html lang="kr">`<br />
+> `<html lang="en">`
+- single quotation and double quotation
+> `<a href="https://kyochul-website.netlify.app/">Kyochul Jang's website</a>` and `<a href='https://kyochul-website.netlify.app/'>Kyochul Jang's website</a>` are the same thing.
+
+### Example
+`index.html`
+
+```
+<!DOCTYPE html>
+<html>
+    <head lang = 'en-US'>
+        <title>HTML example</title>
+    </head>
+    <body>
+        <img src="https://kyochul-website.netlify.app/static/media/logo.1913bc354a8f0f32dd0c.png" alt="Kyochul's Logo" />
+        <br />
+        <img src="" alt="Kyochul's Logo" />
+        <br />
+        <a href='https://kyochul-website.netlify.app/'>Kyochul Jang's website</a>
+    </body>
+</html>
+```
 ## 🖌️ CSS
 ### CSS stands for Cascading Style Sheet language.
 ### It used for describing presentation of document written in markup language such as HTML.
@@ -118,7 +149,4 @@ h1 {
 - `rel="stylesheet"` is for linking css file to the HTML file.
 - These two file should be in the same path.
 
-
-
-
-## 🏠 Assignment
+## 🏠 Exercise
