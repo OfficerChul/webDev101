@@ -89,6 +89,36 @@ Write CSS code in the file with `.css` extension. Normally, people use `style.cs
 
 #### Example for external CSS
 
+`external_example.html`
+
+```
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>CSS Tutorial</title>
+      <!-- Liking css file to this document which is HTML -->
+      <link rel="stylesheet" href = "style.css" />
+   </head>	
+   <body>
+      <h1>external_example</h1>
+   </body>	
+</html>
+```
+
+`style.css`
+
+```
+h1 {
+    /* Change font color */
+     color: #36CFFF; 
+  }
+```
+
+- Normally, we name css file as `style.css`.
+- `rel="stylesheet"` is for linking css file to the HTML file.
+- These two file should be in the same path.
+
+
 
 
 ## 🏠 Assignment
