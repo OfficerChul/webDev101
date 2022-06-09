@@ -96,7 +96,9 @@ There are two ways to apply
 ### inline CSS
 Putting CSS code inside of the HTML `<head>` tag using `<style>` tag.
 
-#### Example for inline CSS
+#### Example
+`inline_example.html`
+
 ```
 <!DOCTYPE html>
 <html>
@@ -118,7 +120,7 @@ Putting CSS code inside of the HTML `<head>` tag using `<style>` tag.
 ### external CSS
 Write CSS code in the file with `.css` extension. Normally, people use `style.css` as the name of CSS file. Link the CSS file and HTML file by using `<link>` tag in the `<head>` tag.
 
-#### Example for external CSS
+#### Example
 
 `external_example.html`
 
