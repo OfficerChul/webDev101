@@ -2,7 +2,7 @@
 
 ## 🔔 Goal
 You will make a online resume by using the HTML and the CSS. <br />
-Example:
+Example: <br />
 <img src='https://github.com/OfficerChul/webDev101/blob/main/Week_4/images/exercise_example.png?raw=true' />
 
 ## 📑 Instruction
