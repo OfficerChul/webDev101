@@ -1,7 +1,7 @@
 # Exercise Instruction
 
 ## 🔔 Goal
-You will make a online resume by using the HTML and the CSS. <br />
+You will make an online resume by using the HTML and the CSS. <br />
 Example: <br />
 <img src='https://github.com/OfficerChul/webDev101/blob/main/Week_4/images/exercise_example.png?raw=true' />
 

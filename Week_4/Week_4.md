@@ -155,4 +155,4 @@ h1 {
 - `rel="stylesheet"` is for linking css file to the HTML file.
 - These two file should be in the same path.
 
-## 🏠 Exercise
+## 🏠 [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_4/exercise/instruction.md)
