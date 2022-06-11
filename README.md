@@ -27,8 +27,8 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 - GitHub Configuration
 - Using GitHub with VsCode
 - HTML
-### 4th week: 
-- Comment
+### [4th week](https://github.com/OfficerChul/webDev101/blob/main/Week_4/Week_4.md): 
+- Comment / Annotation
 - HTML
 - CSS
 ### 5th week: 
