@@ -39,7 +39,7 @@ On Windows, the shortcut is: `CTRL + /` · On Mac, the shortcut is: `Command + /
 ### HTML attribute
 Attributes provide additional information about elements and are always specified in the start tag.
 
-- `href` attribute
+- `href(Hypertext REFerence)` attribute: specifies the URL of the page the link goes to
 > `<a href="https://kyochul-website.netlify.app/">Kyochul Jang's website</a>`
 - `src` and `alt` attribute
 > `<img src="https://kyochul-website.netlify.app/static/media/logo.1913bc354a8f0f32dd0c.png" alt="Kyochul's Logo" />`
