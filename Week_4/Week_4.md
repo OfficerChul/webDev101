@@ -1,7 +1,11 @@
 # Week 4
 
-- [Recap]()
-- [This Week]()
+- [Recap](https://github.com/OfficerChul/webDev101/blob/main/Week_4/Week_4.md#-recap)
+- [This Week](https://github.com/OfficerChul/webDev101/blob/main/Week_4/Week_4.md#-this-week)
+- [Comment](https://github.com/OfficerChul/webDev101/blob/main/Week_4/Week_4.md#%EF%B8%8F-comment)
+- [HTML](https://github.com/OfficerChul/webDev101/blob/main/Week_4/Week_4.md#-html)
+- [CSS](https://github.com/OfficerChul/webDev101/blob/main/Week_4/Week_4.md#%EF%B8%8F-css)
+- [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_4/Week_4.md#-exercise)
 
 ## 🔙 Recap
 - Vim
@@ -39,7 +43,7 @@ On Windows, the shortcut is: `CTRL + /` · On Mac, the shortcut is: `Command + /
 ### HTML attribute
 Attributes provide additional information about elements and are always specified in the start tag.
 
-- `href` attribute
+- `href(Hypertext REFerence)` attribute: specifies the URL of the page the link goes to
 > `<a href="https://kyochul-website.netlify.app/">Kyochul Jang's website</a>`
 - `src` and `alt` attribute
 > `<img src="https://kyochul-website.netlify.app/static/media/logo.1913bc354a8f0f32dd0c.png" alt="Kyochul's Logo" />`
@@ -151,4 +155,4 @@ h1 {
 - `rel="stylesheet"` is for linking css file to the HTML file.
 - These two file should be in the same path.
 
-## 🏠 Exercise
+## 🏠 [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_4/exercise/instruction.md)
