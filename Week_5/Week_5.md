@@ -52,8 +52,15 @@ ex) <br />
 </body>
 </html>
 ```
-like this <br />
+> like this <br />
 <img src='./images/favicon_example.jpg' alt='favicon_example' />
+
+#### How to make a custom favicon?
+- Favicon should have a size of 16 pixels width and height.
+- Favicon should be clean and simple.
+- Favicon should be able to identificable which provides good visual indicator.
+
+> Use [this website](https://favicon.io/) for converting images with various extension to `ico` extension.
 
 
 ## 🏠 Exercise
