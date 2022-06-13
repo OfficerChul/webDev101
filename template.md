@@ -2,9 +2,10 @@
 
 - [Recap]()
 - [This Week]()
+- [Exercise]()
 
 ## 🔙 Recap
 
 ## 📖 This Week
 
-## 🏠 Assignment
+## 🏠 Exercise

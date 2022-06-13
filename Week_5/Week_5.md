@@ -2,6 +2,7 @@
 
 - [Recap]()
 - [This Week]()
+- [Exercise]()
 
 ## 🔙 Recap
 
@@ -11,6 +12,8 @@
 
 ## 📖 This Week
 
+- HTML - 
+- CSS
+- JavaScript - Intro to JavaScript
 
-
-## 🏠 Assignment
+## 🏠 Exercise

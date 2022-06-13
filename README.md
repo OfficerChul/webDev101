@@ -36,6 +36,7 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 - CSS
 - JavaScript
 ### 6th week: 
+- CSS
 - Programming (JavaScript)
 ### 7th week: 
 - Programming (JavaScript)
