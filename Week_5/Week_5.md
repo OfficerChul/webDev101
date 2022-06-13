@@ -52,7 +52,7 @@ ex) <br />
 </body>
 </html>
 ```
-> like this <br />
+like this <br />
 <img src='./images/favicon_example.jpg' alt='favicon_example' />
 
 #### How to make a custom favicon?
