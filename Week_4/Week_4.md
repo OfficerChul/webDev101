@@ -8,15 +8,15 @@
 - [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_4/Week_4.md#-exercise)
 
 ## 🔙 Recap
-- Vim
+- Vim - Simple Tutorial for Vim
 - GitHub Configuration
 - Using GitHub with VsCode
-- HTML
+- HTML - Intro to HTML
 
 ## 📖 This Week
-- Comment
-- HTML
-- CSS
+- Comment / Annotation
+- HTML - Attribute
+- CSS - Intro to CSS
 
 ## 🗺️ Comment
 ### One of the most useful programming conventions.

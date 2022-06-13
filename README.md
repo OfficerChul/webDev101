@@ -23,14 +23,14 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 - Exercise for GitHub and Terminal
 - Googling
 ### [3rd week](https://github.com/OfficerChul/webDev101/blob/main/Week_3/Week_3.md):
-- Vim
+- Vim - Simple Tutorial for Vim
 - GitHub Configuration
 - Using GitHub with VsCode
-- HTML
+- HTML - Intro to HTML
 ### [4th week](https://github.com/OfficerChul/webDev101/blob/main/Week_4/Week_4.md): 
 - Comment / Annotation
-- HTML
-- CSS
+- HTML - Attribute
+- CSS - Intro to CSS
 ### 5th week: 
 - HTML
 - CSS

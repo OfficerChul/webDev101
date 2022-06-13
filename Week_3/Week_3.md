@@ -16,10 +16,10 @@
 - Googling
 
 ## 📖 This Week
-- Vim
+- Vim - Simple Tutorial for Vim
 - GitHub Configuration
 - Using GitHub with VsCode
-- HTML
+- HTML - Intro to HTML
 
 ## 📓 Vim
 <img src="https://miro.medium.com/max/605/1*_BWVJB2JzuuzyxGxm6XWQQ.png" /> <br />

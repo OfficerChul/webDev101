@@ -1,14 +1,16 @@
-# Week 5
+# Week \#
 
 - [Recap]()
 - [This Week]()
 
-## ? Recap
+## 🔙 Recap
 
-- Comment
-- HTML
-- CSS
+- Comment / Annotation
+- HTML - Attribute
+- CSS - Intro to CSS
 
-## ? This Week
+## 📖 This Week
 
-## ? Assignment
+
+
+## 🏠 Assignment
