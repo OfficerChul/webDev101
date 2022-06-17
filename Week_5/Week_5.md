@@ -160,13 +160,13 @@ Computer programming is the process of performing a particular computation, usua
 ```                                        
 HTML and CSS are not the programming language, but JavaScript.
 
-### How to link JavaScript to HTML file?
-#### inline VS external
-#### Inline
-Use `<script>` tag to put the javaScript code inline.
+## JavaScript Programming
 
-ex)
-`js_inline_example.html`
+### Setting Environment
+1. `VsCode`
+2. `node.js`
+
+
 
 
 
