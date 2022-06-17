@@ -41,6 +41,7 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 - CSS - Flexbox
 - Programming (JavaScript)
 ### 7th week: 
+- CSS - Grid
 - Programming (JavaScript)
 ### 8th week: 
 - React.js

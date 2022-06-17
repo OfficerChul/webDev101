@@ -26,7 +26,10 @@
 ### Favicon
 
 #### What is Favicon?
-Favicon is a small icon which is displayed next to the page title <br />
+
+```
+Favicon is a small icon which is displayed next to the page title.
+```
 ex) <br />
 <img src='https://www.seobility.net/en/wiki/images/2/26/Favicon.png' alt='favicon_example' />
 
@@ -66,10 +69,10 @@ like this <br />
 > Use [this website](https://favicon.io/) for converting images with various extension to `ico` extension.
 
 ### Class Attribute
-
-- Used for specify the HTML element. <br />
-- Used for CSS to change the specified element. <br /><br />
-
+```
+- Used for specify the HTML element.
+- Used for CSS to change the specified element.
+```
 ex)
 
 `favicon_class_example.html`
@@ -93,6 +96,13 @@ ex)
 </html>
 ```
 
+## CSS
+
+### Applying style to elements, separately
+```
+You can apply different styles to elements with the same tag by using "class" attribute and specifying that class name in css file.
+```
+
 `style.css`
 
 ```
@@ -113,7 +123,50 @@ h1 {
     border-style: dotted;
     border-color: green;
 }
+
+p {
+    background-color: aquamarine;
+}
 ```
+
+Without using class attribute
+
+<img src = './images/not_use_class.jpg' alt = 'example_picture' />
+
+With using class attribute
+
+<img src = './images/use_class.jpg' alt = 'example_picture' />
+
+## JavaScript 
+> (`S` in JavaScript is uppercase.)
+
+<p align='center' ><img src='./images/javascript_logo.png' alt = 'javascript_logo'></p>
+
+```
+JavaScript is a programming language that allows you to implement complex features on web pages.
+```
+
+### What is JavaScript used for?
+- **Adding interactive behavior to web pages**
+- Creating Web or Mobile apps
+- Game development
+- Building web servers and developing server applications
+
+### Then, what is Programming?
+```
+Computer programming is the process of performing a particular computation, usually by designing and building an executable computer program.
+
+-Wikipedia
+```                                        
+HTML and CSS are not the programming language, but JavaScript.
+
+### How to link JavaScript to HTML file?
+#### inline VS external
+#### Inline
+Use `<script>` tag to put the javaScript code inline.
+
+ex)
+`js_inline_example.html`
 
 
 

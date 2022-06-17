@@ -15,3 +15,7 @@ h1 {
     border-style: dotted;
     border-color: green;
 }
+
+p {
+    background-color: aquamarine;
+}
