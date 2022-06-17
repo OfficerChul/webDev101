@@ -1,4 +1,4 @@
-# Week \#
+# Week 5
 
 - [Recap]()
 - [This Week]()
@@ -14,7 +14,7 @@
 
 - HTML
     - Favicon
-    - Class
+    - Class Attribute
 - CSS
     - Applying style to each element
 - JavaScript - Intro to JavaScript
@@ -61,6 +61,16 @@ like this <br />
 - Favicon should be able to identificable which provides good visual indicator.
 
 > Use [this website](https://favicon.io/) for converting images with various extension to `ico` extension.
+
+### Class Attribute
+
+Class attribute is used for specify the HTML element. </br>
+Class attribute is mainly used for CSS to change the specified element.
+
+ex)
+
+
+
 
 
 ## 🏠 Exercise
