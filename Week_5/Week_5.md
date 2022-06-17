@@ -35,19 +35,22 @@ ex) <br />
 2. Move the favicon image called `favicon.ico` to the `images` directory.
 3. Link the `ico` file to the HTML file by using `link` tag. <br />
 ex) <br />
-`favicon_example.html`
+`favicon_class_example.html`
 
 ```
 <!DOCTYPE html>
 <html>
 <head>
   <title>Favicon Example</title>
-  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+  <link rel = 'stylesheet' href="style.css" />
 </head>
 <body>
 
-<h1>This is an example for setting favicon with HTML</h1>
+<h1 class = 'header_tag'>This is an example for setting favicon with HTML</h1>
 <p>Look at the left side of the page title!</p>
+<p class = 'firstP'>First p tag</p>
+<p class = 'secondP'>Second p tag</p>
 
 </body>
 </html>
@@ -64,10 +67,55 @@ like this <br />
 
 ### Class Attribute
 
-Class attribute is used for specify the HTML element. </br>
-Class attribute is mainly used for CSS to change the specified element.
+- Used for specify the HTML element. <br />
+- Used for CSS to change the specified element. <br /><br />
 
 ex)
+
+`favicon_class_example.html`
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Favicon Example</title>
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+  <link rel = 'stylesheet' href="style.css" />
+</head>
+<body>
+
+<h1 class = 'header_tag'>This is an example for setting favicon with HTML</h1>
+<p>Look at the left side of the page title!</p>
+<p class = 'firstP'>First p tag</p>
+<p class = 'secondP'>Second p tag</p>
+
+</body>
+</html>
+```
+
+`style.css`
+
+```
+h1 {
+    background-color: red;
+}
+
+.header_tag {
+    color: blue;
+}
+
+.firstP {
+    border-style: solid;
+    border-color: black;
+}
+
+.secondP {
+    border-style: dotted;
+    border-color: green;
+}
+```
+
+
 
 
 

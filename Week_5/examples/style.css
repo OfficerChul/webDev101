@@ -1,0 +1,17 @@
+h1 {
+    background-color: red;
+}
+
+.header_tag {
+    color: blue;
+}
+
+.firstP {
+    border-style: solid;
+    border-color: black;
+}
+
+.secondP {
+    border-style: dotted;
+    border-color: green;
+}

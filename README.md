@@ -37,7 +37,7 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 - JavaScript
 ### 6th week:
 - HTML
-    - Construct layout (div tag)
+    - Layout Elements and Techniques (div & span tag)
 - CSS - Flexbox
 - Programming (JavaScript)
 ### 7th week: 
