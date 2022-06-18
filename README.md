@@ -31,10 +31,15 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 - Comment / Annotation
 - HTML - Attribute
 - CSS - Intro to CSS
-### 5th week: 
+### [5th week](https://github.com/OfficerChul/webDev101/blob/main/Week_5/Week_5.md): 
 - HTML
+    - Favicon
+    - Class Attribute
 - CSS
-- JavaScript
+    - Applying style to each element
+- JavaScript - Intro to JavaScript
+    - The HTML `<script>` Tag
+    - Outlint `script.js`
 ### 6th week:
 - HTML
     - Layout Elements and Techniques (div & span tag)

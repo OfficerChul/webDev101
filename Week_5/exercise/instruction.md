@@ -13,5 +13,6 @@ For example, if you want `about` page and `contact` page in your website, you ne
 2. Copy the website html file in week4 directory and paste it to week5 directory
 2. Generate `html` and `css` files for each navigation tab in the website html
 3. Write code according to how you think of that pages
+4. Set `favicon` to your website
 4. Git commit and push
 
