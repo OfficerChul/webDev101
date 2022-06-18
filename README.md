@@ -38,8 +38,11 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 ### 6th week:
 - HTML
     - Layout Elements and Techniques (div & span tag)
-- CSS - Flexbox
+- CSS - Flexbox, Unit
 - Programming (JavaScript)
+    - Variable
+    - If statement
+    - For loop (While loop)
 ### 7th week: 
 - CSS - Grid
 - Programming (JavaScript)

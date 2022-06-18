@@ -164,7 +164,7 @@ HTML and CSS are not the programming language, but JavaScript.
 
 ### Setting Environment
 1. `node.js`
-2. `VsCode`
+2. `Internet Browser (Console)`
 
 
 ### JavaScript with `node.js`
@@ -197,7 +197,7 @@ console.log("hello world!")
 ```
 <img src='./images/node.js.jpg' alt='node.js' />
 
-### JavaScript with `VsCode`
+### JavaScript with `Internet`
 You can run JavaScript code without installing VsCode.
 
 ex)
