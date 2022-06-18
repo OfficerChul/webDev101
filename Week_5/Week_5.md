@@ -23,7 +23,7 @@
     - Applying style to each element
 - JavaScript - Intro to JavaScript
     - The HTML `<script>` Tag
-    - Outlint `script.js`
+    - Inline `script.js`
 
 ## 🦴 HTML
 
