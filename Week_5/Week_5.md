@@ -163,10 +163,72 @@ HTML and CSS are not the programming language, but JavaScript.
 ## JavaScript Programming
 
 ### Setting Environment
-1. `VsCode`
-2. `node.js`
+1. `node.js`
+2. `VsCode`
 
 
+### JavaScript with `node.js`
+
+```
+Node.js is a runtime built on Chrome's V8 JavaScript engine.
+```
+*runtime = environment (simple def)
+
+ex )
+NPM stands for Node Package Manager.
+React.js use Node.js, so we will use `NPM` command for React.js
+
+1. Install node.js
+> Go to [download](https://nodejs.org/en/download/)
+
+2. Run `Command Line(Terminal)`
+
+3. Go to the directory which has the `.js` file
+
+4. Execute the `.js` program by using `node` command
+>syntax -> `node` [filename]
+
+5. `script.js` is the common name for JavaScript file.<br />
+
+ex)
+`script.js`
+```
+console.log("hello world!")
+```
+<img src='./images/node.js.jpg' alt='node.js' />
+
+### JavaScript with `VsCode`
+You can run JavaScript code without installing VsCode.
+
+ex)
+`js_inline_example.html`
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Favicon Example</title>
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+</head>
+<body>
+
+<h1 class="head">Inline JavaScript</h1>
+  <script>
+    console.log('hello world');
+  </script>
+
+</body>
+</html>
+```
+
+1. Write the JavaScript code
+2. `Go Live`
+3. Go to `inspect`
+4. Go to `Console`
+
+<br />
+
+<img style='border-style: solid' src='./images/javascript_vscode.png.jpg' />
 
 
 
