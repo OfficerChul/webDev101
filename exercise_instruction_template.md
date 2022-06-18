@@ -4,3 +4,5 @@
 
 ## 📑 Instruction
 
+1. Make a directory called `week_#`
+
