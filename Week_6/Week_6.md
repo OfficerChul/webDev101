@@ -19,7 +19,7 @@
 ### 🌟🌟Very Important🌟🌟
 - HTML
     - Layout Elements and Techniques (div & span tag)
-- Javascript Outline
+- Link JavaScript
 - JavaScript Programming
     - Variable
     - If statement
@@ -59,11 +59,20 @@ Therefore, it helps you understand what's happening where on the page.
 
 <p align='center'><img src='https://www.w3schools.com/html/img_sem_elements.gif' /></p>
 
-## 🥇 Javascript Outline
+## 🥇 Link JavaScript
 
-### How to link external Javascript file?
-- Use `<link></link>` tag
+### How to link external Javascript file to html file?
+- Use `<script src ="..."></script>` tag
+`<script>` tag is used to link script which is Javascript to html file.
+
+`script.js`
+
+
 ```
+console.log("Hello World!")
+```
+
+`index.html`
 
 
 
