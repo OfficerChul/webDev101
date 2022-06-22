@@ -1,1 +1,3 @@
-console.log("Hello World!")
+function myFunc() {
+    alert("You clicked me.")
+}

@@ -21,8 +21,8 @@
     - Layout Elements and Techniques (div & span tag)
 - Link JavaScript
 - JavaScript Programming
-    - Variable
-    - If statement
+    - Variables
+    - Conditional Statement
     - For loop (While loop)
 
 ## 🦴 HTML
@@ -59,23 +59,120 @@ Therefore, it helps you understand what's happening where on the page.
 
 <p align='center'><img src='https://www.w3schools.com/html/img_sem_elements.gif' /></p>
 
-## 🥇 Link JavaScript
+## 🍊 Link JavaScript (Externally)
 
 ### How to link external Javascript file to html file?
 - Use `<script src ="..."></script>` tag
-`<script>` tag is used to link script which is Javascript to html file.
+`<script>` tag is used to link script which is Javascript to html file.<br />
+
+Put the tag inside the `<head>` tag with `src` attribute in your html file. <br />
+For example)
 
 `script.js`
 
 
 ```
-console.log("Hello World!")
+function myFunc() {
+    alert("You clicked me.")
+}
 ```
 
 `index.html`
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>example page</title>
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <button onclick="myFunc()">Click me!</button>
+    </body>
+</html>
+```
+
+<img src='./images/javascript_onclick.jpg' />
+
+## 🌟🌟 JavaScript Programming 🌟🌟
+
+- Variables
+- Conditional Statement
+- For loop (While loop)
+
+### What are Variables?
+```
+Variables are containers for storing data
+```
+ for example)
+<br />
+You can declare variables by using `let` keyword.
+> There are other keywords, for example, `var`. But, I recommend don't use this. This is for old web browser.
+> You can also delcare variables without using keyword. But, try to declare with `let` keyword.
+
+```
+let a = 25; // 25 is stored in 25
+let b = 75; // 75 is stroed in 75
+let c = a + b; // 25 + 75 is stored in 100
+```
+
+> In most of the programming languages, you need to put `semicolon (;)` to indicate that the command is finished.
+
+> For more information, refer `variables.js`.
+
+### Conditional Statement
+#### Boolean Variable
+- `true` == 1
+- `false` == 0
+
+```
+If you want the line of code to be executed conditionally, use `Conditional Statement`.
+There are 4 types of Conditional Statement.
+```
+- `if` Statement
+- `else` Statement
+- `else if` Statement
+
+#### `if` Statement
+```
+If the `condition` is `true`,
+the `block of code` will be executed.
+```
+##### Syntax
+```
+if ([condition]) {
+    [block of code]
+}
+```
+
+#### `else` Statement
+```
+If the `condition` in the `if` statement is `false`, the `block of code` in the `else` statement will be executed.
+```
+##### Syntax
+```
+if ([condition]) {
+    [block of code]
+} else {
+    [block of code]
+}
+```
+
+#### `else if` Statement
+```
+If the `condition` in the `if` statement is `false` and the `condition` in the `else if` statement is `true`, run the `block of code` in the `else if` statement.
+```
+##### Syntax
+```
+if ([condition]) {
+    [block of code]
+} else if ([condition]) {
+    [block of code]
+}
+```
+
+for example) <br/>
 
 
 
-## 🍊 JavaScript Programming
 
 ## 🏠 Exercise
