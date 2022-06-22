@@ -19,13 +19,14 @@
 ### 🌟🌟Very Important🌟🌟
 - HTML
     - Layout Elements and Techniques (div & span tag)
+- Javascript Outline
 - JavaScript Programming
     - Variable
     - If statement
     - For loop (While loop)
 
 ## 🦴 HTML
-### In order to make a website well, you need to design it well from the beginning so that you don't have to modify it much later. 
+### In order to make a good website, you need to design it well from the beginning so that you don't have to modify it much later. 
 > ex) Architectural Design
 
 The design can be like
@@ -57,6 +58,13 @@ Therefore, it helps you understand what's happening where on the page.
 - `<time>`
 
 <p align='center'><img src='https://www.w3schools.com/html/img_sem_elements.gif' /></p>
+
+## 🥇 Javascript Outline
+
+### How to link external Javascript file?
+- Use `<link></link>` tag
+```
+
 
 
 ## 🍊 JavaScript Programming

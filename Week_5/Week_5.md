@@ -201,7 +201,7 @@ console.log("hello world!")
 ```
 <img src='./images/node.js.jpg' alt='node.js' />
 
-### JavaScript with `Internet`
+### JavaScript with `Web Browser`
 You can run JavaScript code without installing VsCode.
 
 ex)
