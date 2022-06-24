@@ -211,13 +211,21 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 > `i++` means i = i + 1 which means add one to the variable and vice versa.
+<br />
+<img src='https://github.com/OfficerChul/webDev101/blob/main/Week_6/images/for_loop1.jpg?raw=true'> <br />
 
 #### If you want to print without new lines?
 Don't use `console.log()` if you don't want the line feed.
 Instead, use `process.stdout.write("...")`.
-If you need new line with using process.stdout.write function, put `\n` inside <br /> `process.stdout.write("hellow \n world")`
+If you need new line with using process.stdout.write function, put `\n` inside <br /> `process.stdout.write("hellow \n world")` <br />
+<img src='https://github.com/OfficerChul/webDev101/blob/main/Week_6/images/for_loop2.jpg?raw=true' />
 <br />
-<img src='https://github.com/OfficerChul/webDev101/blob/main/Week_6/images/for_loop1.jpg?raw=true'>
+
+#### Nest For Loop
+We can have a for loop within the for loop.
+<br />
+For example)<br />
+<img src>
 
 > refer `for_loop.js` for more examples
 
