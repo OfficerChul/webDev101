@@ -1,8 +1,11 @@
 # Week 6
 
-- [Recap]()
-- [This Week]()
-- [Exercise]()
+- [Recap](https://github.com/OfficerChul/webDev101/blob/main/Week_6/Week_6.md#-recap)
+- [This Week](https://github.com/OfficerChul/webDev101/blob/main/Week_6/Week_6.md#-this-week)
+- [HTML](https://github.com/OfficerChul/webDev101/blob/main/Week_6/Week_6.md#-html)
+- [Link JavaScript](https://github.com/OfficerChul/webDev101/blob/main/Week_6/Week_6.md#-link-javascript-externally)
+- [JavaScript Programming](https://github.com/OfficerChul/webDev101/blob/main/Week_6/Week_6.md#-javascript-programming-)
+- [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_6/Week_6.md#-exercise)
 
 ## 🔙 Recap
 
@@ -242,4 +245,4 @@ For example)<br />
 > refer `for_loop.js` for more examples
 
 
-## 🏠 Exercise
+## 🏠 [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_6/exercise/instruction.md#exercise-instruction)

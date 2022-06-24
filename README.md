@@ -40,13 +40,13 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 - JavaScript - Intro to JavaScript
     - The HTML `<script>` Tag
     - Outlint `script.js`
-### 6th week:
+### [6th week](https://github.com/OfficerChul/webDev101/blob/main/Week_6/Week_6.md):
 - HTML
     - Layout Elements and Techniques (div & span tag)
 - JavaScript Programming
     - Variable
     - If statement
-    - For loop (While loop)
+    - For loop
 ### 7th week: 
 - CSS - Grid, Flexbox, Unit
 - Programming (JavaScript)

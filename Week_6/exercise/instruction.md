@@ -2,7 +2,7 @@
 
 ## 🔔 Goal
 
-Practice for loop and if statement. <br />
+### Practice for loop and if statement.
 You will make a program which builds four different types of pyramids. <br />
 
 There are four different types of pyramids.
