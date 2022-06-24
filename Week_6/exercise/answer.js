@@ -1,6 +1,6 @@
 // 
 
-let input = 4
+let input = 1
 let level = 9
 
 if (input == 1) {
