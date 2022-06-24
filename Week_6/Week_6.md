@@ -23,7 +23,7 @@
 - JavaScript Programming
     - Variables
     - Conditional Statement
-    - For loop (While loop)
+    - For loop
 
 ## 🦴 HTML
 ### In order to make a good website, you need to design it well from the beginning so that you don't have to modify it much later. 
@@ -131,6 +131,8 @@ There are 4 types of Conditional Statement.
 - `if` Statement
 - `else` Statement
 - `else if` Statement
+> Use `==` operator to compare the values.
+
 
 #### `if` Statement
 ```
@@ -172,7 +174,46 @@ if ([condition]) {
 
 for example) <br/>
 
+refer `conditional_statement.js`
 
+### For Loop
+
+```
+Loops can execute a block of code a number of times.
+```
+
+##### Syntax
+```
+for (statement 1; statement 2; statement 3) {
+  // a block of code
+}
+```
+
+- statement 1 is often used as initializing iterating variable or declare variable
+- statement 2 states the condition. If the condition is true, the `block of code` will be executed. Otherwise, no.
+- statement 3 describes how much the iterating value will be increased or decreased.
+
+
+for example)
+```
+console.log('hellow world');
+console.log('hellow world');
+console.log('hellow world');
+console.log('hellow world');
+console.log('hellow world');
+...
+...
+```
+can be done with just three lines of code with using for loop
+```
+for (let i = 0; i < 5; i++) {
+    console.log('hellow world');
+}
+```
+<br />
+<img src='../images/for_loop1.jpg'>
+
+> refer `for_loop.js` for more examples
 
 
 ## 🏠 Exercise
