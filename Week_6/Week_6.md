@@ -117,6 +117,17 @@ let c = a + b; // 25 + 75 is stored in 100
 
 > In most of the programming languages, you need to put `semicolon (;)` to indicate that the command is finished.
 
+#### Data Types
+- string
+> ex) 'John', 'Mike', '5', '4'
+- integer
+> ex) 1, 2, 3, 4, 10, 9999
+
+```
+let myName = 'Kyochul_Jang' // string
+let age = 24 // integer
+```
+
 > For more information, refer `variables.js`.
 
 ### Conditional Statement
@@ -225,7 +236,8 @@ If you need new line with using process.stdout.write function, put `\n` inside <
 We can have a for loop within the for loop.
 <br />
 For example)<br />
-<img src>
+<img src='https://github.com/OfficerChul/webDev101/blob/main/Week_6/images/nested_forloop.jpg?raw=true' />
+<br />
 
 > refer `for_loop.js` for more examples
 

@@ -20,3 +20,13 @@ for (let i = 0; i < 3; i++) {
         process.stdout.write('No!\n');
     }
 }
+
+// practice for hw
+let level = 5
+for (let asterisk = 1; asterisk <= level; asterisk++) {
+    
+    for (let nested = 0; nested < asterisk; nested++) {
+        process.stdout.write("*");
+    }
+    console.log('')
+}
