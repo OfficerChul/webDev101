@@ -1,5 +1,12 @@
 // increasing i
-for (let i = 0; i < 5; i++) {
+// i++ == i = i + 1
+// ++i, i++
+let q = 0;
+console.log(`q = ${++q}`);
+console.log(`q = ${q}`);
+
+for (let i = 0; i <= 5; i++) {
+    console.log(`i = ${i}`);
     console.log('hellow world');
 }
 
@@ -18,6 +25,9 @@ for (let i = 0; i < 3; i++) {
     process.stdout.write('Yes!\n')
     for (let j = 0; j < 4; j++) {
         process.stdout.write('No!\n');
+        for (let k = 5; k > 2; k--) {
+            process.stdout.write('What\n');
+        }
     }
 }
 
@@ -28,5 +38,5 @@ for (let asterisk = 1; asterisk <= level; asterisk++) {
     for (let nested = 0; nested < asterisk; nested++) {
         process.stdout.write("*");
     }
-    console.log('')
+    console.log('');
 }
