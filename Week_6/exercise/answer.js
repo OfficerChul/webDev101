@@ -14,3 +14,4 @@ if (input == ) { // first pyramid
 } else { // fourth pyramid
     
 }
+
