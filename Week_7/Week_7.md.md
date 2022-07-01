@@ -64,9 +64,9 @@ Semantic elements of HTML5, the name clearly defines what kind of code it is hol
 
 ### The best way to organize your website is to use both `div` tags and `semantic` tags. Try to use `semantic` tag first. If there is no content that matches `semantic` tags, then use `div` tags as alternatives.
 
-```
-html_example.html
-```
+
+`html_example.html`
+
 
 ```
 <!DOCTYPE html>
@@ -133,7 +133,97 @@ Relative Lengths shows different size which depends on the size of other compone
 
 ### Flexbox
 
+```
+Flexbos is a web layout model which helps the user to organize and arrange elements within `container`.
 
+It allows us to design our website more flexibly.
+```
 
+> The best website I've seen for grasping the concept of flexbox and practice flexbox: [Flexbox_Froggy](https://flexboxfroggy.com/)
+<p align='center'><img width='200px' src='https://www.giantbomb.com/a/uploads/scale_medium/87/878890/3318923-flexbox-froggy.png'/></p>
+
+Flexbox has two big properties: flex container vs flex items </br>
+<p align='center'><img width='300' src='https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg' />
+<img width='300' src='https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg' /></p>
+<p align='center' >https://css-tricks.com/snippets/css/a-guide-to-flexbox/</p>
+
+```
+<div class = "container">
+    <h1 class='items'>item1</a></h1>
+    <h1 class='items'>item2</a></h1>
+    <h1 class='items'>item3</a></h1>
+    <h1 class='items'>item4</a></h1>
+</ul>
+```
+
+```
+.container {
+    display: flex
+}
+```
+
+`css_example.css`
+
+```
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+header {
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 60px;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  margin: 60px;
+}
+
+.home {
+  background-color: aliceblue;
+}
+
+.about {
+  background-color: azure;
+}
+
+.services {
+  background-color: aqua;
+}
+
+.contact {
+  background-color: aquamarine;
+}
+
+.closing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+```
 
 ## 🏠 Exercise
