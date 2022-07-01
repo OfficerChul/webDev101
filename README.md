@@ -50,8 +50,11 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 ### 7th week: 
 - HTML
     - Layout Elements and Techniques (div & span tag)
-- CSS - Flexbox, Unit
-- Programming (JavaScript)
+- CSS 
+    - Unit (Absolute Lenghts vs Relative Lengths)
+    - Flexbox
+    - Apply style to `div` and `semantic` tag
+- JavaScript Programming
 ### 8th week: 
 - CSS - Grid
 - React.js

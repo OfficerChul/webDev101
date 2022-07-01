@@ -3,6 +3,9 @@
 - [Recap]()
 - [This Week]()
 - [Exercise]()
+- [HTML]()
+- [CSS]()
+- [JavaScript Programming]()
 
 ## 🔙 Recap
 
@@ -20,9 +23,9 @@
     - Layout Elements and Techniques (div & span tag)
 - CSS 
     - Unit (Absolute Lenghts vs Relative Lengths)
-    - Grid, Flexbox
+    - Flexbox
     - Apply style to `div` and `semantic` tag
-- Programming (JavaScript)
+- JavaScript Programming
 
 ## 🦴 HTML
 ### In order to make a good website, you need to design it well from the beginning so that you don't have to modify it much later. 
@@ -162,6 +165,10 @@ Flexbox has two big properties: flex container vs flex items </br>
 }
 ```
 
+### Apply style to `div` and `semantic` tag
+
+#### You will learn how to apply style using flexbox and units by using `div` and `semantic` tags.
+
 `css_example.css`
 
 ```
@@ -225,5 +232,22 @@ div {
   margin-bottom: 10px;
 }
 ```
+
+## 🍊 JavaScript Programming
+
+### Solve Programming Problems
+
+`Question 1`
+
+```
+The least common multiple (L.C.M.) of two numbers is the smallest positive integer that is perfectly divisible by the two given numbers.
+
+For example, the L.C.M. of 12 and 14 is 84.
+
+Program to Compute LCM
+```
+
+
+
 
 ## 🏠 Exercise

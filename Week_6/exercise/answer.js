@@ -1,17 +1,56 @@
-// Here is a skeleton code for you
+// 
 
-let input = 1; // user's input for which pyramid to build
-let level = 8; // user's input for how tall the pyramid will be
-process.stdout.write(" ");
-/* ToDo: write codes for building pyramids by using for loops (nested)
- and if statement */
-if (input == ) { // first pyramid
-    
-} else if (input == ) { // second pyramid
-    
-} else if (input == ) { // third pyramid
-    
-} else { // fourth pyramid
-    
+let input = 1// integer value
+let level = 9// integer value
+
+if (input == 1) {
+    console.log(`Input: ${input}, Level: ${level}`);
+    console.log(`First Pyramid of level ${level}`);
+    for (let asterisk = 1; asterisk <= level; asterisk++) {
+        
+        for (let nested = 0; nested < asterisk; nested++) {
+            process.stdout.write("*");
+        }
+        console.log('')
+    }
+} else if (input == 2) {
+    console.log(`Input: ${input}, Level: ${level}`);
+    console.log(`Second Pyramid of level ${level}`);
+    for (let asterisk = level; asterisk > 0; asterisk--) {
+
+        for (let nested = asterisk; nested > 0; nested--) {
+            process.stdout.write("*");
+        }
+        console.log("");
+    }
+} else if (input == 3) {
+    console.log(`Input: ${input}, Level: ${level}`);
+    console.log(`Third Pyramid of level ${level}`);
+    let counter = 1;
+    for (let asterisk = level; asterisk > 0; asterisk--) {
+        for (let space = 0; space < level - counter; space++) {
+            process.stdout.write(" ");
+        }
+        for (let star = 0; star < counter; star++) {
+            process.stdout.write("*");
+        }
+        console.log("");
+        counter++;
+    }
+} else {
+    console.log(`Input: ${input}, Level: ${level}`);
+    console.log(`Fourth Pyramid of level ${level}`);
+    let counter = 0;
+    for (let asterisk = level; asterisk > 0; asterisk--) {
+        for (let space = 0; space < counter; space++) {
+            process.stdout.write(" ");
+        }
+        for (let star = level; star - counter > 0; star--) {
+            process.stdout.write("*");
+        }
+        console.log("");
+        counter++;
+
+
+    }
 }
-
