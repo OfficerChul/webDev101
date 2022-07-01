@@ -112,11 +112,9 @@ Semantic elements of HTML5, the name clearly defines what kind of code it is hol
 
 ## 👚 CSS 
 
-### Unit
+### Unit - Absolute Lengths vs Relative Lengths
 
-#### Absolute Lengths vs Relative Lengths
-
-#### Absolute Lengths
+#### - Absolute Lengths
 
 ```
 Absolute lengths are the units which are fixed and has the exact size.
@@ -126,7 +124,7 @@ It is not recommended to use if you don't know which screen will be used, becaus
 <p align='center'><img src="./images/unit_abs.jpg" /></p>
 <p align='center'>https://www.w3schools.com/cssref/css_units.asp</p>
 
-#### Relative Lengths
+#### - Relative Lengths
 
 ```
 Relative Lengths shows different size which depends on the size of other components.
