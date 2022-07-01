@@ -8,16 +8,15 @@
 header {
     padding: 0 70px;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
-    
 }
 .nav {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     list-style-type: none;
     gap: 60px;
 }
@@ -29,7 +28,7 @@ header {
 div {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   padding: 60px;
   margin: 60px;
 }
@@ -53,7 +52,7 @@ div {
 .closing {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   background-color: grey;
   padding: 20px;
   margin-bottom: 10px;
