@@ -48,9 +48,12 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
     - If statement
     - For loop
 ### 7th week: 
-- CSS - Grid, Flexbox, Unit
+- HTML
+    - Layout Elements and Techniques (div & span tag)
+- CSS - Flexbox, Unit
 - Programming (JavaScript)
 ### 8th week: 
+- CSS - Grid
 - React.js
 ### 9th week: 
 - React.js
