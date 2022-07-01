@@ -1,11 +1,11 @@
 # Week \#
 
-- [Recap]()
-- [This Week]()
-- [Exercise]()
-- [HTML]()
+- [Recap](https://github.com/OfficerChul/webDev101/blob/main/Week_7/Week_7.md#-recap)
+- [This Week](https://github.com/OfficerChul/webDev101/blob/main/Week_7/Week_7.md#-this-week)
+- [HTML](https://github.com/OfficerChul/webDev101/blob/main/Week_7/Week_7.md#-html)
 - [CSS]()
 - [JavaScript Programming]()
+- [Exercise]()
 
 ## 🔙 Recap
 
@@ -18,7 +18,6 @@
     - For loop
 
 ## 📖 This Week
-
 - HTML
     - Layout Elements and Techniques (div & span tag)
 - CSS 

@@ -47,7 +47,7 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
     - Variable
     - If statement
     - For loop
-### 7th week: 
+### [7th week](https://github.com/OfficerChul/webDev101/blob/main/Week_7/Week_7.md): 
 - HTML
     - Layout Elements and Techniques (div & span tag)
 - CSS 
