@@ -26,6 +26,8 @@
     - Flexbox
     - Apply style to `div` and `semantic` tag
 - JavaScript Programming
+    - While Loop
+    - Array
 
 ## 🦴 HTML
 ### In order to make a good website, you need to design it well from the beginning so that you don't have to modify it much later. 
@@ -235,6 +237,78 @@ div {
 
 ## 🍊 JavaScript Programming
 
+### While Loop
+
+```
+The `block of code` in the `while loop` will be executed as long as the `condition` is `true`.
+```
+
+#### Syntax
+
+```
+while ([condition]) {
+    [block of code]
+}
+```
+
+for example)
+
+```
+let i = 0
+while (i < 3) {
+    console.log('How many time will this be printed?');
+    i++;
+}
+consle.log('');
+while (true) {
+    console.log('hello world');
+}
+```
+will output...
+
+```
+console.log('How many time will this be printed?');
+console.log('How many time will this be printed?');
+console.log('How many time will this be printed?');
+
+console.log('hello world');
+console.log('hello world');
+console.log('hello world');
+console.log('hello world');
+console.log('hello world');
+...
+...
+```
+
+### Array
+```
+An array is a special variable, which can hold more than one value.
+```
+
+#### Initializing every values by mentioning the variable name
+
+```
+let fruit1 = 'apple'
+let fruit2 = 'banana'
+let fruit3 = 'grape'
+```
+#### Syntax
+```
+[variable type] [array name] = [elements...]
+```
+
+#### Initialize an array which contains fruits
+```
+let fruits = ['cherry', 'mellon', 'pipeapple']
+
+console.log(fruit1);
+console.log(fruit2);
+console.log(fruit3);
+
+console.log(fruits);
+```
+<p align='center'><img style='border: solid' src='./images/array.jpg' /></p>
+
 ### Solve Programming Problems
 
 `Question 1`
@@ -246,8 +320,14 @@ For example, the L.C.M. of 12 and 14 is 84.
 
 Program to Compute LCM
 ```
+> https://www.programiz.com/python-programming/examples/lcm
 
+`Question 2`
+```
+These are the grades for the midterm 1 of class A.
+Get mean, median, and standard deviation.
 
-
+84, 17, 53, 100, 27, 90, 98, 95, 88, 65, 72
+```
 
 ## 🏠 Exercise

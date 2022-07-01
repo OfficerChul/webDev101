@@ -199,7 +199,7 @@ Loops can execute a block of code a number of times.
 ##### Syntax
 ```
 for ([statement 1]; [statement 2]; [statement 3]) {
-  // a block of code
+  [block of code]
 }
 ```
 
@@ -210,18 +210,18 @@ for ([statement 1]; [statement 2]; [statement 3]) {
 
 for example)
 ```
-console.log('hellow world');
-console.log('hellow world');
-console.log('hellow world');
-console.log('hellow world');
-console.log('hellow world');
+console.log('hello world');
+console.log('hello world');
+console.log('hello world');
+console.log('hello world');
+console.log('hello world');
 ...
 ...
 ```
 can be done with just three lines of code with using for loop
 ```
 for (let i = 0; i < 5; i++) {
-    console.log('hellow world');
+    console.log('hello world');
 }
 ```
 > `i++` means i = i + 1 which means add one to the variable and vice versa.
