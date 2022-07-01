@@ -11,7 +11,7 @@
 1. Make a directory called `Week_7`
 2. Finish the flexbox_froggy game and get used to the concept of flexbox(You will use it a lot in the future). <br />
 <br />
-Upload the picture you get when you finish the froggy game to the folder.
+Push the picture you get when you finish the froggy game to the `Week_7` directory.
 <p align=center><img src='../images/froggy.jpg' />
 
 3. Make your website which looks like the one you drew.

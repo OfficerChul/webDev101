@@ -1,4 +1,4 @@
-# Week \#
+# Week 7
 
 - [Recap](https://github.com/OfficerChul/webDev101/blob/main/Week_7/Week_7.md#-recap)
 - [This Week](https://github.com/OfficerChul/webDev101/blob/main/Week_7/Week_7.md#-this-week)
