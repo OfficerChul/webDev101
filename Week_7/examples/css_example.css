@@ -3,17 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-  }
+}
 
 header {
     padding: 0 70px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.nav {
+
+.navigation {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +22,7 @@ header {
     gap: 60px;
 }
 
-.nav li a {
+.navigation li a {
   text-decoration: none;
 }
 
@@ -31,6 +32,8 @@ div {
   align-items: center;
   padding: 60px;
   margin: 60px;
+  border: solid 7px;
+  border-radius: 10%;
 }
 
 .home {
@@ -56,4 +59,9 @@ div {
   background-color: grey;
   padding: 20px;
   margin-bottom: 10px;
+}
+
+footer {
+  margin-left: 40px;
+  margin-right: 40px;
 }
