@@ -132,7 +132,9 @@ React is a JavaScript User Interfaces (UIs) framework which is a tool for buildi
 1. We need `node.js` for using Node Package Manager (NPM)</br> 
 To check if `node.js` is installed on your computer, use `node -v` command to check.
 You can also check npm version by entering `npm -v`.
-2. 
+2. Enter `npx create-react-app my-app` to the path that you want to make app on terminal.
+> npm stands for Node Package Execute which run NPM.
+3. 
 
 
 
