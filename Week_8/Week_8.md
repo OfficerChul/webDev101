@@ -110,6 +110,7 @@ and </br>
 `css_example.css`
 
 ## React.js
+<p align='center'><img src='https://avatars.githubusercontent.com/u/6412038?s=280&v=4' /></p>
 
 ### JavaScript Framework
 ```
@@ -118,7 +119,9 @@ A JavaScript library is a library of pre-written JavaScript code that allows for
 
 - **React**
 - Angular
+<p align='center'><img style='width: 250px' src='https://angular.kr/assets/images/logos/angularjs/AngularJS-Shield.svg' /></p>
 - Vue
+<p align='center'><img style='width: 250px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png' /></p>
 
 ### What is `React.js`?
 ```
@@ -132,9 +135,10 @@ React is a JavaScript User Interfaces (UIs) framework which is a tool for buildi
 1. We need `node.js` for using Node Package Manager (NPM)</br> 
 To check if `node.js` is installed on your computer, use `node -v` command to check.
 You can also check npm version by entering `npm -v`.
-2. Enter `npx create-react-app my-app` to the path that you want to make app on terminal.
+2. Create a folder that you want to make an app
+3. Go to the folder and enter `npx create-react-app [app name]` to the path that you want to make app on terminal.
 > npm stands for Node Package Execute which run NPM.
-3. 
+4. Go to the app folder and enter `npm start`.
 
 
 
