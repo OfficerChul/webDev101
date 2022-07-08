@@ -134,7 +134,11 @@ To check if `node.js` is installed on your computer, use `node -v` command to ch
 You can also check npm version by entering `npm -v`.
 2. Enter `npx create-react-app my-app` to the path that you want to make app on terminal.
 > npm stands for Node Package Execute which run NPM.
-3. 
+3. Move to the folder where you want to make a project using command line.
+4. Type `npx create-react-app [App name]`</br>
+<p align='center'><img src='./images/create_react.jpg' /></p>
+It will take some time to finish it.
+
 
 
 
