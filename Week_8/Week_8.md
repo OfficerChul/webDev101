@@ -138,6 +138,7 @@ You can also check npm version by entering `npm -v`.
 2. Create a folder that you want to make an app
 3. Go to the folder and enter `npx create-react-app [app name]` to the path that you want to make app on terminal.
 > npm stands for Node Package Execute which run NPM.
+> if version error shows up, `npx create-react-app@latest my-app`
 4. Go to the app folder and enter `npm start`.
 
 
