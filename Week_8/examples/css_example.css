@@ -21,9 +21,11 @@ header {
     gap: 60px;
     margin-bottom: 10px;
     justify-content: space-around;
+    
 }
 
-.navigation li {
+.navigation a {
+    text-decoration-style: none;
     text-decoration: none;
   }
 
@@ -38,7 +40,6 @@ header {
 .item:nth-child(1) {
     grid-area: 1/1/2/3;
     background-color: aquamarine;
-    
 }
 
 .item:nth-child(2) {

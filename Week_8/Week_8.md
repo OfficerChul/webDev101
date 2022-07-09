@@ -21,7 +21,7 @@
 - CSS - Grid
 - React.js
 
-## Grid
+## 🥅 CSS - Grid
 
 ### What is Grid
 ```
@@ -109,7 +109,7 @@ Once you finished defining it, there are several attributes that you can use for
 and </br>
 `css_example.css`
 
-## React.js
+## 🚈 React.js
 <p align='center'><img src='https://avatars.githubusercontent.com/u/6412038?s=280&v=4' /></p>
 
 ### JavaScript Framework
@@ -140,10 +140,6 @@ You can also check npm version by entering `npm -v`.
 > npm stands for Node Package Execute which run NPM.
 > if version error shows up, `npx create-react-app@latest my-app`
 4. Go to the app folder and enter `npm start`.
-
-
-
-
 
 
 
