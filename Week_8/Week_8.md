@@ -19,7 +19,7 @@
 ## 📖 This Week
 
 - CSS - Grid
-- React.js
+- React.js - Set Up Development Environment
 
 ## 🥅 CSS - Grid
 
@@ -120,6 +120,7 @@ A JavaScript library is a library of pre-written JavaScript code that allows for
 - **React**
 - Angular
 <p align='center'><img style='width: 250px' src='https://angular.kr/assets/images/logos/angularjs/AngularJS-Shield.svg' /></p>
+
 - Vue
 <p align='center'><img style='width: 250px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png' /></p>
 
