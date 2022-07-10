@@ -55,13 +55,17 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
     - Flexbox
     - Apply style to `div` and `semantic` tag
 - JavaScript Programming
-### 8th week: 
+### [8th week](https://github.com/OfficerChul/webDev101/tree/main/Week_8): 
 - CSS - Grid
 - React.js - Set Up Development Environment
 ### 9th week: 
 - CSS
     - Position
-    - Hovering
+        - static
+        - relative
+        - absolute
+        - fixed
+    - Hover
 - React.js
 ### 10th week: 
 - Application
