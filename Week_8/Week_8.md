@@ -1,10 +1,10 @@
 # Week 8
 
-- [Recap]()
-- [This Week]()
-- [Grid]()
-- [React.js]()
-- [Exercise]()
+- [Recap](https://github.com/OfficerChul/webDev101/blob/main/Week_8/Week_8.md#-recap)
+- [This Week](https://github.com/OfficerChul/webDev101/blob/main/Week_8/Week_8.md#-this-week)
+- [Grid](https://github.com/OfficerChul/webDev101/blob/main/Week_8/Week_8.md#-css---grid)
+- [React.js](https://github.com/OfficerChul/webDev101/blob/main/Week_8/Week_8.md#-reactjs)
+- [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_8/Week_8.md#-exercise)
 
 ## 🔙 Recap
 - HTML
@@ -142,6 +142,4 @@ You can also check npm version by entering `npm -v`.
 > if version error shows up, `npx create-react-app@latest my-app`
 4. Go to the app folder and enter `npm start`.
 
-
-
-## 🏠 Exercise
+## 🏠 [Exercise]()
