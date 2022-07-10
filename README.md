@@ -57,8 +57,11 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 - JavaScript Programming
 ### 8th week: 
 - CSS - Grid
-- React.js
+- React.js - Set Up Development Environment
 ### 9th week: 
+- CSS
+    - Position
+    - Hovering
 - React.js
 ### 10th week: 
 - Application
