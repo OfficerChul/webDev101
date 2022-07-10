@@ -142,4 +142,4 @@ You can also check npm version by entering `npm -v`.
 > if version error shows up, `npx create-react-app@latest my-app`
 4. Go to the app folder and enter `npm start`.
 
-## 🏠 [Exercise]()
+## 🏠 [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_8/exercise/instruction.md)
