@@ -44,4 +44,8 @@
 
 ## 🧔 React.js
 
+### What is React?
+
+React is a declarative, efficient JavaScript Library (Framework) for building user interface. This helps you to build your website by stacking a very small block of code called `components`.
+
 ## 🏠 Exercise
