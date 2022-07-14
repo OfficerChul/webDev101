@@ -149,7 +149,7 @@ But, put the expression outside of the `return` function.
 #### Class Components (Old Fashion)
 
 1. It is a old way to make a component.
-2. Slow.
+2. Slow, heavy and complicated.
 3. Many old companies have a React code with `Class Component`.
 
 ```
