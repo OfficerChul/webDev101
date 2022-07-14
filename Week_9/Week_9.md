@@ -95,9 +95,9 @@ function App() {
 
 2. You can write the same code (but not exactly the same) from html file to this react file.
 </br>
-Some different elements due to JSX react extension.
+But, there are some different elements due to JSX react extension.
 
-  1. When you give a class name to a certain tag </br>
+ - When you give a class name to a certain tag </br>
 
 `html`
 
@@ -112,7 +112,7 @@ Some different elements due to JSX react extension.
 </div>
 ```
 
-  2. Expression in JSX
+  - Expression in JSX
 for example, `if statement`
 
 ```
@@ -136,9 +136,53 @@ But, put the expression outside of the `return` function.
 
 ### How to create and use `components`?
 
-1. You create `components` in `src` folder.
+1. Create `components` in `src` folder.
 2. In `src/components`, create a component folder that you want to use, for example, `Header`.
-> The first letter of the name of the component should always be a capital letter.
-3. Create `Header.js` for react.js and `Header.css` for css file in `src/components/Header`.
+> The first letter of the component's name should always be a capital letter.
+3. Create `Header.js` for React.js and `Header.css` for css file in `src/components/Header`.
+4. Write code for the `js` file and the `css` file.
+
+### How to write code for `components`?
+
+#### Class Components vs Function Components
+
+#### Class Components (Old Fashion)
+
+1. It is a old way to make a component.
+2. Slow.
+3. Many old companies have a React code with `Class Component`.
+
+```
+import React, { Component } from 'react'
+
+export default class Hello extends Component{
+  render(){
+    return(
+      <div>
+          Hello World!
+      </div>
+    )
+ }
+}
+```
+
+#### Function Components (New Fashion)
+
+1. It is a new way to make a component.
+2. Newcomers are using `Function Component`.
+3. Simple and Fast.
+4. It is getting famous and all companies are now using `Function Component`.
+
+```
+import React from 'react'
+
+export default function Hello() {
+  return (
+     <div>
+        Hello World!
+    </div>
+ )
+}
+```
 
 ## 🏠 Exercise
