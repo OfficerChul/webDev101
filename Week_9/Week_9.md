@@ -39,15 +39,28 @@ The element with position `static` is positioned as the normal flow of the code.
 `top`, `left`, `bottom`, and `top` properties will not work with the `static` position.
 ```
 
+<p align='center'><img style='border: 1px solid' src='./images/static1.jpg'/></p>
+
+<p align='center'><img style='border: 1px solid' src='./images/static2.jpg'/></p>
+
 ### Relative
 ```
-The element with position `relative` is positioned as the normal flow of the code with applying `top`, `left`, `bottom`, and `top` properties from the offset.
+The element with position `relative` is positioned as the normal flow of the code 
+with applying `top`, `left`, `bottom`, and `top` properties from the offset.
 ```
+
+<p align='center'><img style='border: 1px solid' src='./images/relative1.jpg'/></p>
+
+<p align='center'><img style='border: 1px solid' src='./images/relative2.jpg'/></p>
 ### Absolute
 ```
 The element with position `absolute` doesn't follow the normal flow of the code.
 `top`, `left`, `bottom`, and `top` properties affects the final position of the element.
 ```
+
+<p align='center'><img style='border: 1px solid' src='./images/absolute1.jpg'/></p>
+
+<p align='center'><img style='border: 1px solid' src='./images/absolute2.jpg'/></p>
 
 ### Fixed
 ```
@@ -55,22 +68,77 @@ The element with position `fixed` doesn't follow the normal flow of the code.
 Just think that the element will be fixed on your screen, not on the website.
 ```
 
-### Example
-
-
+<p align='center'><img style='border: 1px solid' src='./images/fixed1.jpg'/></p>
 
 https://user-images.githubusercontent.com/35318639/179258623-e4d11f2d-a608-44ad-acd8-e9a85d5f44f3.mp4
 
-
-
-## ✍️ CSS - Hover
-
-### What is hover?
-
-### How to use it?
-
 ### Example
 
+`position.html`
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS - Postion Example</title>
+        <link rel='stylesheet' href="position.css"></link>
+    </head>
+    <body>
+        <header>
+            <h1>CSS Position Example</h1>
+            <ol>
+                <li>static</li>
+                    <img class='react-logo-static' src="../images/react-logo.png"/>
+                    <img class='angular-logo-static' src="../images/angular-logo.svg"/>
+                    <img class='vue-logo-static' src="../images/vue-logo.png"/>
+                <li>relative</li>
+                    <img class='react-logo-relative' src="../images/react-logo.png"/>
+                    <img class='angular-logo-relative' src="../images/angular-logo.svg"/>
+                    <img class='vue-logo-relative' src="../images/vue-logo.png"/>
+                <li>absolute</li>
+                    <img class='react-logo-absolute' src="../images/react-logo.png"/>
+                    <img class='angular-logo-absolute' src="../images/angular-logo.svg"/>
+                    <img class='vue-logo-absolute' src="../images/vue-logo.png"/>
+                <li>fixed</li>
+                    <img class='react-logo-fixed' src="../images/react-logo.png"/>
+                    <img class='angular-logo-fixed' src="../images/angular-logo.svg"/>
+                    <img class='vue-logo-fixed' src="../images/vue-logo.png"/>
+            </ol>
+        </header>
+    </body>
+</html>
+```
+
+`position.css`
+```
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.angular-logo-static {
+    position: static;
+    left: 100px;
+    top: 200px;
+}
+
+.angular-logo-relative {
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+
+.angular-logo-absolute {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.angular-logo-fixed {
+    position: fixed;
+    left: 100px;
+    top: 200px;
+}
+```
 ## 🧔 React.js
 
 <p align='center'><img width='300' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' /></p>
