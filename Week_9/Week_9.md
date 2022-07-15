@@ -329,7 +329,7 @@ export default function Hello() {
 }
 ```
 
-## Future Plans
+## ⏲️ Future Plans
 
 You will make the website that use draw in hand by using `React.js`.
 
