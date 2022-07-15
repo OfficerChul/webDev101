@@ -21,6 +21,7 @@
         - absolute
         - fixed
 - React.js
+- React Component
 
 ## 🧶 CSS - Position
 
@@ -184,7 +185,7 @@ function App() {
 }
 ```
 3. Virtual DOM (Document Object Model)
-    - React cerated a copy of DOM which keep tracks of only changes and updates the web site which made the process of laoding website simplifier and faster.
+    - React created a copy of DOM which keep tracks of only changes and updates the web site which made the process of loading website simplifier and faster.
 
 ### How to use it?
 
