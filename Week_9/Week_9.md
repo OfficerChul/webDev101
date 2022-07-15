@@ -5,7 +5,7 @@
 - [CSS - Position](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#-css---position)
 - [React.js](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#-reactjs)
 - [React Component](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#-react-component)
-- [Future Plans]()
+- [Future Plans](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#%EF%B8%8F-future-plans)
 - [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#-exercise)
 
 ## 🔙 Recap
@@ -331,22 +331,28 @@ export default function Hello() {
 
 ## ⏲️ Future Plans
 
-You will make the website that use draw in hand by using `React.js`.
+```
+It's time to make your drawn website real!
+You will build your own website by using `React.js`.
+```
 
 Take a look at the code in `webdev101_app` folder.
-Enter `npm start`.
+Enter `npm start` if you want to run react.
+
+The following picture is the website that I am building. I will make this website when tutees make their own website using `react.js`.</br>
+This website is a representative website of this class.
 
 <p align='center'><img src='./images/webdev_webpage.png'/></p>
 
-This website will continue to be updated and be the representative website of this tutorial.
-
 For the rest of the class, you will learn
-- How to create components folder
-- How to utilize components
-- How CSS and JSX works exactly the same way as we did using CSS and HTML
-- How to give elements an animation
-- How to apply font using `ttf` file
-- How to use design tools
+- How to solve problems on their own
+- How to make website using react
+  - How to utilize components
+  - How CSS and JSX works exactly the same way as we did using CSS and HTML
+  - How to give elements an animation
+  - How to apply font using `ttf` file
+  - How to use Router
+- How to utilize design tools
  - shapedivider:
  https://www.shapedivider.app/
  - color palette:
@@ -357,7 +363,6 @@ For the rest of the class, you will learn
  https://coolbackgrounds.io/
  - dribble:
  https://dribbble.com/ 
-- How to use Router
+- How to deploy website and let others see
 
-
-## 🏠 Exercise
+## 🏠 [Exercise]()
