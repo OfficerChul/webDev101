@@ -1,11 +1,12 @@
 # Week 9
 
-- [Recap]()
-- [This Week]()
-- [CSS - Position]()
-- [React.js]()
-- [React Component]()
-- [Exercise]()
+- [Recap](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#-recap)
+- [This Week](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#-this-week)
+- [CSS - Position](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#-css---position)
+- [React.js](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#-reactjs)
+- [React Component](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#-react-component)
+- [Future Plans]()
+- [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_9/Week_9.md#-exercise)
 
 ## 🔙 Recap
 
@@ -22,6 +23,7 @@
         - fixed
 - React.js
 - React Component
+- Future Plans
 
 ## 🧶 CSS - Position
 
@@ -327,7 +329,7 @@ export default function Hello() {
 }
 ```
 
-#### Application of React
+## Future Plans
 
 You will make the website that use draw in hand by using `React.js`.
 
