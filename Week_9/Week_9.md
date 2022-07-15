@@ -2,6 +2,9 @@
 
 - [Recap]()
 - [This Week]()
+- [CSS - Position]()
+- [React.js]()
+- [React Component]()
 - [Exercise]()
 
 ## 🔙 Recap
@@ -17,7 +20,6 @@
         - relative
         - absolute
         - fixed
-    - Hover
 - React.js
 
 ## 🧶 CSS - Position
@@ -52,6 +54,7 @@ with applying `top`, `left`, `bottom`, and `top` properties from the offset.
 <p align='center'><img style='border: 1px solid' src='./images/relative1.jpg'/></p>
 
 <p align='center'><img style='border: 1px solid' src='./images/relative2.jpg'/></p>
+
 ### Absolute
 ```
 The element with position `absolute` doesn't follow the normal flow of the code.
