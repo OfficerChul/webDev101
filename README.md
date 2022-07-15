@@ -12,6 +12,9 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 - You will learn basic html, css, javascript for web development and plus React.js.
 - To be added...
 
+## 🌍 [Course Website](https://github.com/OfficerChul/webDev101/tree/main/webdev101_app/webdev101)
+`npm start` !!
+
 ## 📖 Syllabus (12 weeks)
 ### [1st week](https://github.com/OfficerChul/webDev101/blob/main/Week_1/Week_1.md):  
 - Course Orientation
