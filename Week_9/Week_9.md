@@ -365,4 +365,4 @@ For the rest of the class, you will learn
  https://dribbble.com/ 
 - How to deploy website and let others see
 
-## 🏠 [Exercise]()
+## 🏠 [Exercise](https://github.com/OfficerChul/webDev101/blob/main/Week_9/exercise/instruction.md)

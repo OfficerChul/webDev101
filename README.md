@@ -61,16 +61,16 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 ### [8th week](https://github.com/OfficerChul/webDev101/tree/main/Week_8): 
 - CSS - Grid
 - React.js - Set Up Development Environment
-### 9th week: 
+### [9th week](https://github.com/OfficerChul/webDev101/tree/main/Week_9): 
 - CSS
     - Position
         - static
         - relative
         - absolute
         - fixed
-    - Hover
 - React.js
 ### 10th week: 
+- CSS - hover
 - Application
 ### 11th week: 
 - Application
