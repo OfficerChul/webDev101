@@ -99,42 +99,24 @@ But, there are some different elements due to JSX react extension.
 
  - When you give a class name to a certain tag </br>
 
-`html`
+`html`:
 
 ```
 <div class='html_tag'> 
 </div>
 ```
 
-`react`
+`React`:
 ``` 
 <div className='react_tag`>
 </div>
-```
-
-  - Expression in JSX
-for example, `if statement`
-
-```
-function App() {
-  let x = 5;
-
-  if (x < 15) {
-    x = 15;
-  }
-  return (
-    <div className="App">
-      <h1>this is x: {x}</h1>
-    </div>
-  );
-}
 ```
 
 But, put the expression outside of the `return` function.
 
 > Don't forget to put `;` (semicolon) at the end of the statement.
 
-### How to create and use `components`?
+### How to create `components`?
 
 1. Create `components` in `src` folder.
 2. In `src/components`, create a component folder that you want to use, for example, `Header`.
@@ -142,7 +124,7 @@ But, put the expression outside of the `return` function.
 3. Create `Header.js` for React.js and `Header.css` for css file in `src/components/Header`.
 4. Write code for the `js` file and the `css` file.
 
-### How to write code for `components`?
+### How to use `components`?
 
 #### Class Components vs Function Components
 
@@ -183,6 +165,32 @@ export default function Hello() {
     </div>
  )
 }
+```
+
+#### Application of Component
+
+Take a look at the code in `webdev101_app` folder.
+
+<p align='center'><img src='./images/webdev_webpage.png'/></p>
+
+```
+You will be able to understand
+1. How to create components folder
+2. How to utilize components
+3. CSS and JSX works exactly the same way as we did using CSS and HTML.
+4. How to give elements an animation
+5. How to apply font using `ttf` file
+6. How to use design tools
+ - shapedivider:
+ https://www.shapedivider.app/
+ - color palette:
+ https://mycolor.space/
+ - haikei:
+ https://haikei.app/
+ - coolbackgrounds:
+ https://coolbackgrounds.io/
+ - dribble:
+ https://dribbble.com/ 
 ```
 
 ## 🏠 Exercise

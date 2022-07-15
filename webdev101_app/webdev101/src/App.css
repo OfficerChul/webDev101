@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
 .App {
   text-align: center;
 }
@@ -11,6 +17,36 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.custom-shape-divider-bottom-1657889275 {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1657889275 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 121px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1657889275 .shape-fill {
+  fill: #86FA88;
+}
+
+Header {
+  padding-top: 50px;
+}
+
+.navigation {
+  color: #003C57
 }
 
 .App-header {
@@ -35,4 +71,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'BM_font';
+  src: local('BMEULJIROTTF'), 
+  url(./fonts/BMEULJIROTTF.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
 }
