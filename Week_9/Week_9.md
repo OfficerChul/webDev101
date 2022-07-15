@@ -84,19 +84,20 @@ function App() {
 }
 ```
 3. Virtual DOM (Document Object Model)
-  - React cerated a copy of DOM which keep tracks of only changes and updates the web site which made the process of laoding website simplifier and faster.
+    - React cerated a copy of DOM which keep tracks of only changes and updates the web site which made the process of laoding website simplifier and faster.
 
 ### How to use it?
 
-1. Make an empty page by removing every element in `div` tag with `className` `App`
+1. Make an empty page by removing every element in the outermost `div` tag.
 <p align='center'><img src='./images/React_start1.png' /></p>
 </br>
+Then, you will be able to see a blank page (exclude `Hello World!` context).
 <p align='center'><img src='./images/React_start2.jpg' /></p>
 
-2. You can write the same code (but not exactly the same) from html file to this react file.
+2. You can write the same code (but not exactly the same) as the code of html file to this react file.
 </br>
-But, there are some different elements due to JSX react extension.
-
+There are some different elements due to JSX react extension.
+</br> For example, 
  - When you give a class name to a certain tag </br>
 
 `html`:
@@ -116,15 +117,73 @@ But, put the expression outside of the `return` function.
 
 > Don't forget to put `;` (semicolon) at the end of the statement.
 
-### How to create `components`?
+## 🌄 React Component
+
+### What is component
+```
+Component is a block of code that you can reuse in React.js.
+This helps you write your code much faster.
+Component is ussed as `tag` in React.
+```
+
+### For example...
+The picture below is one `Line` component.
+<p align='center'><img src='./images/component3.5.jpg'/></p>
+
+I reused the `Line` component four times.
+<p align='center'><img src='./images/component4.jpg'/></p>
+
+### Lets look at the code!
+
+<p align='center'><img src='./images/component3.jpg'/></p>
+
+### How to create and use `components`?
 
 1. Create `components` in `src` folder.
 2. In `src/components`, create a component folder that you want to use, for example, `Header`.
 > The first letter of the component's name should always be a capital letter.
 3. Create `Header.js` for React.js and `Header.css` for css file in `src/components/Header`.
+<p align='center'><img src='./images/component1.jpg'/></p>
 4. Write code for the `js` file and the `css` file.
 
-### How to use `components`?
+`React.js`
+```
+import React from 'react';
+import './Line.css';
+
+export default function Line() {
+    return (
+        <div>
+            
+            <hr className='line'/>
+        </div>
+    );
+}
+```
+
+`css`
+```
+.line {
+    
+    border-top: 5px dotted #003C57;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+```
+
+5. Import the component to `App.js` which is the main React file
+<p align='center'><img src='./images/component2.jpg'/></p></br>
+and then use it in the `App()` function. </br>
+<p align='center'><img src='./images/component3.jpg'/></p> </br>
+You will see </br>
+<p align='center'><img src='./images/component4.jpg'/></p>
+
+### Types of components
 
 #### Class Components vs Function Components
 
@@ -167,20 +226,24 @@ export default function Hello() {
 }
 ```
 
-#### Application of Component
+#### Application of React
+
+You will make the website that use draw in hand by using `React.js` .
 
 Take a look at the code in `webdev101_app` folder.
+Enter `npm start`.
 
 <p align='center'><img src='./images/webdev_webpage.png'/></p>
 
-```
+This website will continue to be updated and be the representative website of this tutorial.
+
 You will be able to understand
-1. How to create components folder
-2. How to utilize components
-3. CSS and JSX works exactly the same way as we did using CSS and HTML.
-4. How to give elements an animation
-5. How to apply font using `ttf` file
-6. How to use design tools
+- How to create components folder
+- How to utilize components
+- CSS and JSX works exactly the same way as we did using CSS and HTML.
+- How to give elements an animation
+- How to apply font using `ttf` file
+- How to use design tools
  - shapedivider:
  https://www.shapedivider.app/
  - color palette:
@@ -191,6 +254,6 @@ You will be able to understand
  https://coolbackgrounds.io/
  - dribble:
  https://dribbble.com/ 
-```
+
 
 ## 🏠 Exercise
