@@ -57,6 +57,12 @@ Just think that the element will be fixed on your screen, not on the website.
 
 ### Example
 
+
+
+https://user-images.githubusercontent.com/35318639/179258623-e4d11f2d-a608-44ad-acd8-e9a85d5f44f3.mp4
+
+
+
 ## ✍️ CSS - Hover
 
 ### What is hover?
