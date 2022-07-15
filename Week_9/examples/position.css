@@ -1,0 +1,29 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.angular-logo-static {
+    position: static;
+    left: 100px;
+    top: 200px;
+}
+
+.angular-logo-relative {
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+
+.angular-logo-absolute {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.angular-logo-fixed {
+    position: fixed;
+    left: 100px;
+    top: 200px;
+}
+

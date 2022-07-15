@@ -24,13 +24,36 @@
 
 ### What is Position?
 
+```
+Position property how the elements will be positioned on the screen.
+There are four types of position.
+- Static
+- Relative
+- Absolute
+- Fixed
+```
+
 ### Static
+```
+The element with position `static` is positioned as the normal flow of the code.
+`top`, `left`, `bottom`, and `top` properties will not work with the `static` position.
+```
 
 ### Relative
-
+```
+The element with position `relative` is positioned as the normal flow of the code with applying `top`, `left`, `bottom`, and `top` properties from the offset.
+```
 ### Absolute
+```
+The element with position `absolute` doesn't follow the normal flow of the code.
+`top`, `left`, `bottom`, and `top` properties affects the final position of the element.
+```
 
 ### Fixed
+```
+The element with position `fixed` doesn't follow the normal flow of the code.
+Just think that the element will be fixed on your screen, not on the website.
+```
 
 ### Example
 
@@ -228,7 +251,7 @@ export default function Hello() {
 
 #### Application of React
 
-You will make the website that use draw in hand by using `React.js` .
+You will make the website that use draw in hand by using `React.js`.
 
 Take a look at the code in `webdev101_app` folder.
 Enter `npm start`.
@@ -237,10 +260,10 @@ Enter `npm start`.
 
 This website will continue to be updated and be the representative website of this tutorial.
 
-You will be able to understand
+For the rest of the class, you will learn
 - How to create components folder
 - How to utilize components
-- CSS and JSX works exactly the same way as we did using CSS and HTML.
+- How CSS and JSX works exactly the same way as we did using CSS and HTML
 - How to give elements an animation
 - How to apply font using `ttf` file
 - How to use design tools
@@ -254,6 +277,7 @@ You will be able to understand
  https://coolbackgrounds.io/
  - dribble:
  https://dribbble.com/ 
+- How to use Router
 
 
 ## 🏠 Exercise
