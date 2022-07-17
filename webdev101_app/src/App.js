@@ -2,6 +2,7 @@ import Header from './components/Header/Header';
 import './App.css';
 import "./fonts/BMEULJIROTTF.ttf";
 import Line from "./components/Line/Line";
+import React from 'react';
 
 function App() { 
   return (

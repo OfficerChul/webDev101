@@ -5,6 +5,7 @@ img {
 
 .angular-logo-static {
     position: static;
+    /* position: relative; */
     left: 100px;
     top: 200px;
 }
