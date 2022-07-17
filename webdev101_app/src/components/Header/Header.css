@@ -6,6 +6,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+	margin-top: 130px;
 }
 
 .title {
@@ -20,13 +21,17 @@ header {
     
 }
 
+.main-title {
+	font-size: 300%;
+}
+
 .subtitle {
     padding-top: 20px;
+	font-size: 150%;
 }
 
 .react_logo {
-    padding-top: 30px;
-    width: 512px;   
+    width: 256px;   
 }
 
 .react_logo:hover {
