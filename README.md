@@ -71,7 +71,7 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 - React.js
 ### 10th week: 
 - CSS - hover
-- React 
+- React
     - Router
     - useState
 ### 11th week: 
