@@ -35,18 +35,18 @@
   width: calc(100% + 1.3px);
   height: 121px;
   transform: rotateY(180deg);
+  display: flex;
+  justify-items: end;
 }
 
 .custom-shape-divider-bottom-1657889275 .shape-fill {
   fill: #86FA88;
+  display: flex;
+  justify-items: end;
 }
 
 Header {
   padding-top: 50px;
-}
-
-.navigation {
-  color: #003C57
 }
 
 .App-header {

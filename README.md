@@ -76,7 +76,7 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
     - useState
 ### 11th week: 
 - React - State
-### 12th week: 
+### 12th week:
 - Deploy Website
 
 
