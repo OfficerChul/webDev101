@@ -1,0 +1,14 @@
+.body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 70px;
+}
+
+.navbar {
+    position: absolute;
+    padding: 20px;
+}
+

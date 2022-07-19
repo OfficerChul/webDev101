@@ -1,0 +1,66 @@
+.wrapper {
+    
+    place-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+  }
+
+.typing-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    position: absolute;
+}
+
+.typing {
+    width: 12ch;
+    animation: typing 2s steps(12), blink .5s step-end;
+    /* animation-iteration-count: infinite; */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+    color: white;
+    
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+.typing1 {
+    width: 21ch;
+    animation: typing1 3s steps(21), blink .5s step-end infinite;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 2s;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+    color: white;
+    
+    animation-fill-mode: both;
+    
+}
+
+@keyframes typing1 {
+    from {
+        width: 0
+    }
+}
+    
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.terminal {
+    
+    border-radius: 30px;
+    width: 550px;
+}

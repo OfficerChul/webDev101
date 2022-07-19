@@ -70,8 +70,12 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
         - fixed
 - React.js
 ### 10th week: 
-- CSS - hover
+- VsCode
+    - Emmet
+- CSS 
+    - hover
 - React
+    - Set background with image
     - Router
     - useState
 ### 11th week: 
