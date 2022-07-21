@@ -3,7 +3,6 @@ import "./fonts/BMEULJIROTTF.ttf";
 import Header from './components/Header/Header';
 import Body from './components/Body/Body';
 import React from 'react';
-import {Routes, Route} from 'react-router-dom'
 
 function App() { 
   return (
