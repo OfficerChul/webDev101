@@ -46,8 +46,101 @@ In VsCode, no extension is required.
 
 ### What is hover?
 
+```
+The hover effect happens when the user hovers over an element, for example hover mouse pointer to the elements.
+```
+
 ### How to use it?
 
+```
+[elements]:hvoer {
+    [css effects]
+}
+```
+
 ### Example
+
+`hover.html`
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS - Hover Example</title>
+        <link rel='stylesheet' href="style.css"></link>
+    </head>
+    <body>
+        Hover a mouse pointer on the picture<br/>
+        <img class='python-logo' src="image_example.png" />
+
+    </body>
+</html>
+```
+
+`hover.css`
+
+```
+.python-logo {
+    padding-top: 50px;
+    width: 250px;
+    transition: ease 1s;
+}
+
+.python-logo:hover {
+    transform: translateY(100px);
+    filter: grayscale(100%);
+}
+```
+
+## 🟨 React - Router
+
+### What is Router?
+
+```
+Router is a standard library for routing several pages in react. Router only updates the portion that you want to update.
+
+This can replace the `anchor` tag in html.
+```
+> `anchor` tag updates the whole page if you want to change. But, router function in react only updates the portion that you want to change.
+
+### How to use it?
+
+0. Install `react-router-dom` by using the following command:
+<p align='center'><img src='./images/router0.jpg'/></p>
+
+1. Import `BrowserRouter` from `react`
+
+```
+import { BrowserRouter } from `react`
+```
+Wrap all the codes that you use in this project, means
+
+<p align='center'><img src='./images/router1.jpg'/></p>
+
+> If you want more information about `BrowserRouter`, please click [here](https://www.geeksforgeeks.org/reactjs-router/#:~:text=React%20Router%20is%20a%20standard,in%20sync%20with%20the%20URL.).
+
+2. Import `Routes and Route` from `react`
+
+```
+import { Routes, Route } from `react`
+```
+
+and wrap the portion of the code that you want to change.
+
+<p align='center'><img src='./images/router2.jpg'/></p>
+
+Now, you set that only the wrapped portion will be changed from the browser. This is boost the efficiency of the website.
+
+3. Put the componenets that you want to be navigated.
+
+```
+<Route path='/' element={<[component-name] />} />
+```
+
+<p align='center'><img src='./images/router3.jpg'/></p>
+
+5. 
+
+
+## React - useState
 
 ## 🏠 Exercise
