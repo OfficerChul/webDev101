@@ -1,4 +1,4 @@
-# Week \#
+# Week 10
 
 - [Recap]()
 - [This Week]()
@@ -112,25 +112,25 @@ This can replace the `anchor` tag in html.
 ```
 import { BrowserRouter } from `react`
 ```
-Wrap all the codes that you use in this project, means
+Wrap all the codes that you use in this project.
 
 <p align='center'><img src='./images/router1.jpg'/></p>
 
 > If you want more information about `BrowserRouter`, please click [here](https://www.geeksforgeeks.org/reactjs-router/#:~:text=React%20Router%20is%20a%20standard,in%20sync%20with%20the%20URL.).
 
-2. Import `Routes and Route` from `react`
+2. Import `Routes`, and`Route` from `react`
 
 ```
 import { Routes, Route } from `react`
 ```
 
-and wrap the portion of the code that you want to change.
+and wrap the portion of the code that you want to change with `Routes`.
 
 <p align='center'><img src='./images/router2.jpg'/></p>
 
-Now, you set that only the wrapped portion will be changed from the browser. This is boost the efficiency of the website.
+Now, you set that only the wrapped portion will be changed from the browser. This boosts the efficiency of the website.
 
-3. Put the componenets that you want to be navigated.
+3. Put the components in `<Routes>` tag that you want to be navigated using `<Route>` tag.
 
 ```
 <Route path='/' element={<[component-name] />} />
@@ -138,7 +138,19 @@ Now, you set that only the wrapped portion will be changed from the browser. Thi
 
 <p align='center'><img src='./images/router3.jpg'/></p>
 
-5. 
+4. Go to the component which you have the `button` for routing. In my case, it is `<NavBar>` component and `<header>` component.
+<br />
+<br />
+
+5. Make a hyperlink by using `<Link>` tag from `react.
+
+<p align='center'><img src='./images/router4.jpg'/></p>
+
+> If this process confuses you, think it as
+> `Link` is to make a link and apply it to the included elements.
+> `Route` is to route your current website to the matching link
+
+
 
 
 ## React - useState
