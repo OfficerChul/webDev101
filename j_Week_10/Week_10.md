@@ -150,6 +150,10 @@ Now, you set that only the wrapped portion will be changed from the browser. Thi
 > `Link` is to make a link and apply it to the included elements.
 > `Route` is to route your current website to the matching link
 
+### Summary
+
+<p align='center'><img src='./images/router5.png'/></p>
+
 
 
 
