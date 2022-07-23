@@ -1,0 +1,21 @@
+.game-wrapper {
+    margin-top: 30px;
+    /* border: dotted purple 3px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* width: 3px; */
+}
+
+.error-msg {
+    color: red;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 5px;
+}
