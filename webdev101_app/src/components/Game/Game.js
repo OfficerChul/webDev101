@@ -12,7 +12,7 @@ function getRandomInt(min, max) {
 export default function Game() {
 
 
-    const [randNum, setRandNum] = useState();
+    const [randNum, setRandNum] = useState(0);
     const [userValue, setUserValue] = useState();
     const [errorMessage, setErrorMessage] = useState("");
     const [result, setResult] = useState("");
@@ -28,7 +28,7 @@ export default function Game() {
     }
 
     const compareNum = (event) => {
-        setRandNum(getRandomInt(1,1))
+        setRandNum(getRandomInt(0,99))
         console.log('userValue: %d, randNum: %d', userValue, randNum);
         if (!(userValue >= 0 && userValue <= 99)) {
             setErrorMessage("Please enter a correct value.");
@@ -36,7 +36,7 @@ export default function Game() {
             setErrorMessage("");
         }
         
-        if (randNum == userValue) {
+        if ((randNum === userValue) && (userValue !== NaN)) {
             setResult("🏆 Correct! 🏆")
         } else {
             
@@ -46,7 +46,7 @@ export default function Game() {
 
     return (
         <div >
-            <span className="game-wrapper">
+            <div className="game-wrapper">
 
                 <h1>Random Number Game:</h1>
                 <h2>Guess the number that computer chose!!!</h2>
@@ -61,7 +61,7 @@ export default function Game() {
                 <h1 className='result-msg'>{result}</h1>
 
                 <h1>Computer chose: {randNum}</h1>
-            </span>      
+            </div>      
             
         </div>
     )
