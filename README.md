@@ -69,15 +69,16 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
         - absolute
         - fixed
 - React.js
-### 10th week: 
+### [10th week](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md): 
+
 - VsCode
     - Emmet
 - CSS 
-    - hover
+    - Hover
 - React
-    - Set background with image
     - Router
     - useState
+
 ### 11th week: 
 - React - State
 ### 12th week:

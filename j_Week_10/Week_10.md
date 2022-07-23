@@ -1,17 +1,30 @@
 # Week 10
 
-- [Recap]()
-- [This Week]()
-- [Exercise]()
+- [Recap](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#-recap)
+- [This Week](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#-this-week)
+- [Emmet](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#-vscode---emmet)
+- [Hover](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#%EF%B8%8F-css---hover)
+- [Router](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#-react---router)
+- [useState](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#react---usestate)
+- [Exercise](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#-exercise)
+
 
 ## 🔙 Recap
+
+- CSS
+    - Position
+        - static
+        - relative
+        - absolute
+        - fixed
+- React.js
 
 ## 📖 This Week
 
 - VsCode
     - Emmet
 - CSS 
-    - hover
+    - Hover
 - React
     - Router
     - useState
@@ -195,4 +208,4 @@ return (
 
 <p align='center'><img src='./images/usestate1.png' /></p>
 
-## 🏠 Exercise
+## 🏠 [Exercise](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/exercise/instruction.md)
