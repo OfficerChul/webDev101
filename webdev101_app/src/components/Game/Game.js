@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { format } from 'react-string-format';
 import './Game.css';
 import game from './game.png';
@@ -11,6 +11,16 @@ function getRandomInt(min, max) {
 
 export default function Game() {
 
+    const [position, setPosition] = useState(0);
+    function onScroll() {
+        setPosition(window.scrollY);
+    }
+    useEffect(() => {
+        window.addEventListener("scroll", onScroll);
+        return () => {
+            window.removeEventListener("scroll", onScroll);
+        };
+    }, []);
 
     const [randNum, setRandNum] = useState(0);
     const [userValue, setUserValue] = useState();

@@ -1,5 +1,7 @@
 .game-wrapper {
     margin-top: 50px;
+    /* position: relative;
+    left: 900px; */
 }
 
 .error-msg {
