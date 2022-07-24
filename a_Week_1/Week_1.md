@@ -1,7 +1,7 @@
 # Week 1
 
 - [Orientation](https://github.com/OfficerChul/webDev101/edit/main/Week_1/Week_1.md#-orientation)
-- [Setting Developement Environment](https://github.com/OfficerChul/webDev101/edit/main/Week_1/Week_1.md#-setting-developement-environment)
+- [Setting Development Environment](https://github.com/OfficerChul/webDev101/edit/main/Week_1/Week_1.md#-setting-developement-environment)
 - [Introduction to WebDev](https://github.com/OfficerChul/webDev101/edit/main/Week_1/Week_1.md#-introduction-to-webdev-web-development)
 
 ## 🔔 Orientation
