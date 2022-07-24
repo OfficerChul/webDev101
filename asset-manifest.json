@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/webDev101/static/css/main.75548b37.css",
+    "main.js": "/webDev101/static/js/main.fa450ce2.js",
+    "static/js/787.55d12b2d.chunk.js": "/webDev101/static/js/787.55d12b2d.chunk.js",
+    "static/media/BMEULJIROTTF.ttf": "/webDev101/static/media/BMEULJIROTTF.68db235fd799591bb506.ttf",
+    "static/media/game.png": "/webDev101/static/media/game.115a2702537d23451ac6.png",
+    "static/media/jkc_picture.jpg": "/webDev101/static/media/jkc_picture.42132771e886070c5696.jpg",
+    "static/media/jkc_logo.png": "/webDev101/static/media/jkc_logo.1913bc354a8f0f32dd0c.png",
+    "static/media/card_github_grey_border.png": "/webDev101/static/media/card_github_grey_border.0be73a99b8cef3ab9a26.png",
+    "static/media/terminal_blank.jpg": "/webDev101/static/media/terminal_blank.4a7120b1162270686b4b.jpg",
+    "static/media/background.png": "/webDev101/static/media/background.a0a4ed84585db645ad22.png",
+    "static/media/coffee-svgrepo-com.svg": "/webDev101/static/media/coffee-svgrepo-com.e3363d8697df06370294.svg",
+    "index.html": "/webDev101/index.html",
+    "main.75548b37.css.map": "/webDev101/static/css/main.75548b37.css.map",
+    "main.fa450ce2.js.map": "/webDev101/static/js/main.fa450ce2.js.map",
+    "787.55d12b2d.chunk.js.map": "/webDev101/static/js/787.55d12b2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75548b37.css",
+    "static/js/main.fa450ce2.js"
+  ]
+}
