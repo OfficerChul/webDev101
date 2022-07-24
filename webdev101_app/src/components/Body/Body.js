@@ -13,7 +13,7 @@ export default function Body() {
         <NavBar className='navbar'/>
         <div className="container">
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/webDev101' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/outcomes' element={<Outcomes />} />
             <Route path='/contents' element={<Contents />} />
