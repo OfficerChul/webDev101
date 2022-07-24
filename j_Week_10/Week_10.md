@@ -167,45 +167,4 @@ Now, you set that only the wrapped portion will be changed from the browser. Thi
 
 <p align='center'><img src='./images/Router5.png'/></p>
 
-## React - useState
-
-### What is useState?
-```
-useState is a type of React Hook which allows you to change the state by tracking the state.
-```
-
-### How to use it?
-<p align='center'><img src='./images/usestate.jpg'/></p>
-
-#### Syntax
-```
-const [[variable], set[variable]] = useState([initial value]);
-```
-
-### For example
-```
-const [number, setNumber] = useState(0); // number = 0
-
-setNumber(3); // number = 3
-setNumber(5); // number = 5
-```
-
-### Application
-```
-const [number, setNumber] = useState(0);
-
-const addNumber = () => {
-    setNumber(number + 1);
-}
-
-return (
-    <>
-        <button onClick={addNumber}>add Number</button>
-        <h1>{number}</h1>
-    </>
-)
-```
-
-<p align='center'><img src='./images/usestate1.png' /></p>
-
 ## 🏠 [Exercise](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/exercise/instruction.md)
