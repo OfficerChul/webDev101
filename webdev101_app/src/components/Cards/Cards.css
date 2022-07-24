@@ -1,0 +1,41 @@
+.cards-container {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 20px 2%;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    font-size: 0;
+    margin: 30px;
+    transition: ease 0.5s;
+}
+
+.card-image {
+    width: 350px;
+    
+
+}
+
+.card-title {
+    position: absolute;
+    bottom: 60px;
+    left: 190px;
+    font-size: 40px;
+    font-family: 'BM_font';
+    color: #800080;
+    /* transition: ease 0.5s; */
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-title:hover {
+    color:#ff00ff;
+}
+
+
