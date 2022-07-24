@@ -15,6 +15,12 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 ## 🌍 [Course Website](https://github.com/OfficerChul/webDev101/tree/main/webdev101_app)
 `npm start` !!
 
+
+
+https://user-images.githubusercontent.com/35318639/180648549-70bb356a-0a68-4035-9f16-5cd2c5ee052b.mp4
+
+
+
 ## 📖 Syllabus (12 weeks)
 ### [1st week](https://github.com/OfficerChul/webDev101/blob/main/a_Week_1/Week_1.md):  
 - Course Orientation
