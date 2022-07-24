@@ -17,7 +17,11 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 
 
 
-https://user-images.githubusercontent.com/35318639/180648549-70bb356a-0a68-4035-9f16-5cd2c5ee052b.mp4
+
+
+https://user-images.githubusercontent.com/35318639/180648592-dfa31972-85dc-4838-8b96-bebe3df7b3fd.mp4
+
+
 
 
 
