@@ -15,7 +15,7 @@ export default function Header() {
             <header>
                 <Link to='/'><img className='react_logo' alt='react_logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' /></Link>
 
-                <Link to='/' className='link'><div className="title">
+                <Link to='/webDev101' className='link'><div className="title">
                     <h1 className='main-title'>Webdev 101: <br />Intro to Webdev using React.js</h1>
                     <h3 className='subtitle'>by Kyochul Jang</h3>
                 </div></Link>
