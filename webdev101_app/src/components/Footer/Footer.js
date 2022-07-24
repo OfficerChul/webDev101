@@ -22,7 +22,7 @@ function Footer() {
                   <i classname="email" class="far fa-envelope"></i>
                 </a>
               </li>
-              <li className="social-icon">
+              {/* <li className="social-icon">
                 <div className="kakaotalk" target="_blank" rel="noreferrer">
                   <img
                     src="/images/kakaotalk.png"
@@ -44,7 +44,7 @@ function Footer() {
                     className="kakaotalk-modal-img"
                   ></img>
                 </Modal>
-              </li>
+              </li> */}
               <li className="social-icon">
                 <a
                   href="https://www.facebook.com/profile.php?id=100003819070404"
