@@ -14,6 +14,10 @@
     /* width: 90%; */
 }
 
+.card:hover {
+    filter: brightness(1.25);
+}
+
 .card-image {
     width: 350px;
 
