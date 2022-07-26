@@ -3,7 +3,7 @@ import './Line.css';
 
 export default function Line() {
     return (
-        <div>
+        <div className='line-wrapper'>
             <hr className='line' />
         </div>
     );

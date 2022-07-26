@@ -1,8 +1,21 @@
-import React from 'react';
+import { useEffect, useState } from "react";
 import "./Header.css"
 import { Link } from 'react-router-dom'
 
 export default function Header() {
+
+    const [position, setPosition] = useState(0);
+    function onScroll() {
+        setPosition(window.scrollY);
+    }
+    useEffect(() => {
+        window.addEventListener("scroll", onScroll);
+        return () => {
+            window.removeEventListener("scroll", onScroll);
+        };
+    }, []);
+    console.log((100 - (position / 4))/100);
+
     return (
         <div>
             <div class="custom-shape-divider-top-1657888838">
@@ -12,14 +25,14 @@ export default function Header() {
                     <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
                 </svg>
             </div>
-            <header>
+            <header style={{transform: `scale(${1 + (0.1 - (position / 1000))})`, transition: 'ease 0.5s'}}>
                 <Link to='/'><img className='react_logo' alt='react_logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' /></Link>
 
-                <Link to='/' className='link'><div className="title">
+                <Link to='/webDev101' className='link'><div className="title">
                     <h1 className='main-title'>Webdev 101: <br />Intro to Webdev using React.js</h1>
                     <h3 className='subtitle'>by Kyochul Jang</h3>
                 </div></Link>
-                
+                {/* <h1>Position: {position}</h1> */}
             </header>            
         </div>
     );

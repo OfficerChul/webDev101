@@ -12,10 +12,7 @@ export default function NavBar() {
             <li><CustomLink to='about' className='tab'>About the Author</CustomLink></li>
             <Line />
             
-            <li><CustomLink to='outcomes' className='tab'>Coruse Learning Outcomes</CustomLink></li>
-            <Line />
-            
-            <li><CustomLink to='syllabus' className='tab'>Syllabus</CustomLink></li>
+            <li><CustomLink to='outcomes' className='tab'>Course Learning Outcomes</CustomLink></li>
             <Line />
             
             <li><CustomLink to='contents' className='tab'>Contents</CustomLink></li>

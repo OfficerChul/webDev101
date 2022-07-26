@@ -1,0 +1,22 @@
+.outcomes {
+    margin-top: 40px;
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+ul {
+    gap: 20px;   
+    
+}
+  
+.outcomes li {
+    padding-left: 2rem;
+    background-image: url('./coffee-svgrepo-com.svg');
+    background-position: 0 0;
+    background-size: 20px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    
+}

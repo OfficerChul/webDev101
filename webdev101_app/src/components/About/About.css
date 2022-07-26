@@ -1,0 +1,18 @@
+img {
+    width: 300px;
+}
+
+.about-images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px 2%;
+}
+
+.intro-text1 {
+    padding-top: 50px;
+}
+
+.intro-text2 {
+    padding-bottom: 50px;
+}

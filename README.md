@@ -1,6 +1,6 @@
 # <p align = "center">💻 Web Dev 101 - Kyochul Jang</p>
 
-This repository is for those who do not know programming but are desirable to learn web development. This repo will continue to be improved.
+This repository is for those who do not know to program but are desirable to learn web development. This repo will continue to be improved.
 
 
 ## ℹ️ About the Author
@@ -8,18 +8,28 @@ I am a Junior year student majoring in Computer Science at Purdue University. I 
 
 ## 👓 Course Learning Outcomes
 
-- You will learn how to learn knowledge and solve problems without getting help from the instructor.
-- You will learn basic html, css, javascript for web development and plus React.js.
-- To be added...
+- You will learn how to acquire knowledge and solve problems without getting help from the instructor.
+- You will learn basic HTML, CSS, javascript for web development, and React.js.
+- You will learn how to deploy your website and let others see it.
 
 ## 🌍 [Course Website](https://github.com/OfficerChul/webDev101/tree/main/webdev101_app)
 `npm start` !!
+
+
+
+
+
+https://user-images.githubusercontent.com/35318639/180648592-dfa31972-85dc-4838-8b96-bebe3df7b3fd.mp4
+
+
+
+
 
 ## 📖 Syllabus (12 weeks)
 ### [1st week](https://github.com/OfficerChul/webDev101/blob/main/a_Week_1/Week_1.md):  
 - Course Orientation
 - Introduction to Programming and Web Dev (HTML, CSS, JavaScript)
-- Setting Developement Environment (GitHub, VsCode, Terminal Settings)
+- Setting Development Environment (GitHub, VsCode, Terminal Settings)
 ### [2nd week](https://github.com/OfficerChul/webDev101/blob/main/b_Week_2/Week_2.md): 
 - Terminal
 - Github

@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Body />
-      <Game />
+      <Game/>
       <div class="custom-shape-divider-bottom-1657889275">
         <svg
           data-name="Layer 1"
