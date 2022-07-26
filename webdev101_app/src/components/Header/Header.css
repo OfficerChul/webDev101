@@ -11,6 +11,9 @@ header {
     justify-content: center;
     align-items: center;
 	padding-top: 130px;
+	width: 95%;
+	/* overflow-x: hidden; */
+	/* position: relative; */
 }
 
 .title {

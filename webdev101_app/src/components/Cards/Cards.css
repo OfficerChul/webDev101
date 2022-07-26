@@ -11,11 +11,11 @@
     font-size: 0;
     margin: 30px;
     transition: ease 0.5s;
+    /* width: 90%; */
 }
 
 .card-image {
     width: 350px;
-    
 
 }
 

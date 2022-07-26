@@ -4,6 +4,9 @@
   box-sizing: border-box;
   /* background: url('./images/background.png') no-repeat; */
   background-position: left 100px;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+
 }
 .App {
   text-align: center;

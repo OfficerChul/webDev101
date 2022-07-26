@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { format } from 'react-string-format';
+// import { format } from 'react-string-format';
 import './Game.css';
 import game from './game.png';
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Footer.css";
-import Modal from "react-modal";
+// import Modal from "react-modal";
 
 function Footer() {
   const [isModalOpen, setIsModalOpen] = useState(0);
