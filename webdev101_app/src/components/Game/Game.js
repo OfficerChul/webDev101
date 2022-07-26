@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { format } from 'react-string-format';
+// import { format } from 'react-string-format';
 import './Game.css';
 import game from './game.png';
 
@@ -28,7 +28,7 @@ export default function Game() {
     }
 
     const compareNum = (event) => {
-        setRandNum(getRandomInt(0,99))
+        setRandNum(getRandomInt(0,1))
         console.log('userValue: %d, randNum: %d', userValue, randNum);
         if (!(userValue >= 0 && userValue <= 99)) {
             setErrorMessage("Please enter a correct value.");
@@ -36,10 +36,9 @@ export default function Game() {
             setErrorMessage("");
         }
         
-        if ((randNum === userValue) && (userValue !== NaN)) {
+        if ((randNum == userValue)) {
             setResult("🏆 Correct! 🏆")
         } else {
-            
             setResult("🦞 Try Again :( 🦞")
         }
     }

@@ -1,10 +1,12 @@
 .python-logo {
     padding-top: 50px;
     width: 250px;
-    transition: ease 1s;
+    /* transition: 1s; */
 }
 
 .python-logo:hover {
     transform: translateY(100px);
     filter: grayscale(100%);
+    filter: blur(100px);
+    /* filter: hue-rotate(180deg); */
 }
