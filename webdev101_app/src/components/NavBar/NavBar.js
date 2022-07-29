@@ -9,13 +9,13 @@ export default function NavBar() {
         <ul>
             <Line />
             
-            <li><CustomLink to='about' className='tab'>About the Author</CustomLink></li>
+            <li><CustomLink to='/webDev101/about' className='tab'>About the Author</CustomLink></li>
             <Line />
             
-            <li><CustomLink to='outcomes' className='tab'>Course Learning Outcomes</CustomLink></li>
+            <li><CustomLink to='/webDev101/outcomes' className='tab'>Course Learning Outcomes</CustomLink></li>
             <Line />
             
-            <li><CustomLink to='contents' className='tab'>Contents</CustomLink></li>
+            <li><CustomLink to='/webDev101/contents' className='tab'>Contents</CustomLink></li>
             <Line />
         </ul>
 

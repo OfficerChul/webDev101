@@ -13,10 +13,10 @@ export default function Body() {
         <NavBar className='navbar'/>
         <div className="container">
           <Routes>
-            <Route path='/webDev101' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/outcomes' element={<Outcomes />} />
-            <Route path='/contents' element={<Contents />} />
+            <Route path='/webDev101/' element={<Home />} />
+            <Route path='/webDev101/about' element={<About />} />
+            <Route path='/webDev101/outcomes' element={<Outcomes />} />
+            <Route path='/webDev101/contents' element={<Contents />} />
           </Routes>
         </div>
     </div>
