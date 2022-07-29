@@ -140,4 +140,4 @@ return (
 
 <p align='center'><img src='./images/usestate1.png' /></p>
 
-## 🏠 [Exercise]()
+## 🏠 [Exercise](https://github.com/OfficerChul/webDev101/blob/main/k_Week_11/exercise/instruction.md#exercise-instruction)
