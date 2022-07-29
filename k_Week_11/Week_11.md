@@ -11,6 +11,7 @@
 - React
     - useState
 - Firebase
+- Vite
 
 ## 🔥 Firebase
 
@@ -55,11 +56,34 @@ If you want to make a prototype of the service that you want to launch, use Fire
 
 <p align='center'><img src='./images/firebase5.jpg'/></p>
 
-```
-SDK is a abbreviation for Software Development Kit which is a collection of software development tools such as compilers, debugger, or software framework.
-```
+> SDK is a abbreviation for Software Development Kit which is a collection of software development tools such as compilers, debugger, or software framework.
+
 
 Type `npm install firebase` to install firebase
+
+## 🌩️ Vite
+
+### What is Vite?
+```
+Vite is a bundling build tool which makes your development faster.
+
+There was bundling tools before Vite, such as Webpack. However, now, Vite is the fastested bundling tool and also it is easy to create react app.
+```
+> [This link](https://vitejs.dev/) for more info
+
+### How to install?
+```
+# npm v6.x
+npm create vite@latest [my-react-app] --template react
+
+# npm v7+, extra double-dash is needed:
+npm create vite@latest [my-vue-app] -- --template react
+```
+> You can check npm version by pressing `npm -v` on your command line.
+
+After you install, you can use however you want as when you use plain React.
+
+
 
 
 
