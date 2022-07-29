@@ -1,15 +1,25 @@
-# Week \#
+# Week 11
 
-- [Recap]()
-- [This Week]()
-- [Exercise]()
+- [Recap](https://github.com/OfficerChul/webDev101/blob/main/k_Week_11/Week_11.md#-recap)
+- [This Week](https://github.com/OfficerChul/webDev101/blob/main/k_Week_11/Week_11.md#-this-week)
+- [Firebase](https://github.com/OfficerChul/webDev101/blob/main/k_Week_11/Week_11.md#-firebase)
+- [Vite](https://github.com/OfficerChul/webDev101/blob/main/k_Week_11/Week_11.md#%EF%B8%8F-vite)
+- [UseState](https://github.com/OfficerChul/webDev101/blob/main/k_Week_11/Week_11.md#0%EF%B8%8F%E2%83%A3-react---usestate)
+- [Exercise](https://github.com/OfficerChul/webDev101/blob/main/k_Week_11/Week_11.md#-exercise)
 
 ## 🔙 Recap
+
+- VsCode
+    - Emmet
+- CSS 
+    - Hover
+- React
+    - Router
 
 ## 📖 This Week
 
 - React
-    - useState
+    - UseState
 - Firebase
 - Vite
 
@@ -130,4 +140,4 @@ return (
 
 <p align='center'><img src='./images/usestate1.png' /></p>
 
-## 🏠 Exercise
+## 🏠 [Exercise]()

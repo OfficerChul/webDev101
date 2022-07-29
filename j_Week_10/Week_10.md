@@ -5,7 +5,6 @@
 - [Emmet](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#-vscode---emmet)
 - [Hover](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#%EF%B8%8F-css---hover)
 - [Router](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#-react---router)
-- [useState](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#react---usestate)
 - [Exercise](https://github.com/OfficerChul/webDev101/blob/main/j_Week_10/Week_10.md#-exercise)
 
 
@@ -27,7 +26,6 @@
     - Hover
 - React
     - Router
-    - useState
 
 ## 🍇 VsCode - Emmet
 
