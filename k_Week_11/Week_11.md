@@ -93,12 +93,6 @@ npm create vite@latest [my-vue-app] -- --template react
 
 After you install, you can use however you want as when you use plain React.
 
-
-
-
-
-
-
 ## 0️⃣ React - useState
 
 ### What is useState?
@@ -107,6 +101,11 @@ useState is a type of React Hook which allows you to change the state by trackin
 ```
 
 ### How to use it?
+
+```
+import { useState } from 'react'
+```
+
 <p align='center'><img src='./images/usestate.jpg'/></p>
 
 #### Syntax

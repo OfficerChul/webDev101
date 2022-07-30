@@ -36,7 +36,7 @@ export default function Game() {
     }
 
     const compareNum = (event) => {
-        setRandNum(getRandomInt(0,1))
+        setRandNum(getRandomInt(0,99))
         console.log('userValue: %d, randNum: %d', userValue, randNum);
         if (!(userValue >= 0 && userValue <= 99)) {
             setErrorMessage("Please enter a correct value.");
