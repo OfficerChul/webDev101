@@ -69,10 +69,40 @@ Bootsrap 5 is the newest version of Bootstrap.
 
 1. If you are using npm, type to install react-bootstrap
 ```
-npm i react-bootstrap
+npm install react-bootstrap bootstrap
 ```
 
-2. 
+2. Import the css file from the installed bootstrap
+
+```
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
+
+> You only need to import the bootstrap `.css` file only once in your project. If you don't install the `.css` file, the styling will not be working.
+
+3. Import the component that you want to utilize from bootstrap. In this case, I am importing Button from `react-bootstrap`.
+
+```
+import { Button } from 'react-bootstrap';
+```
+
+You can check out more various components from [this link](https://react-bootstrap.github.io/components/alerts/)
+
+4. You can add a button with design using just one line of code.
+```
+<Button variant='info'>Test</Button>
+```
+
+If you want to change the design, you can add change `variant`.
+<p align='center'><img src='./images/bootstrap_btn1.jpg' /></p>
+
+In bootstrap, you will use `className` to change the styling, not the `css` file that you made.
+
+> There are a lot of other functions than variant. You need to Google it.
+
+4. Then this button will be added in your website
+
+<p align='center'><img src='./images/bootstrap_btn.jpg' /></p>
 
 ### Tailwind
 

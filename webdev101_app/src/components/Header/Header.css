@@ -94,3 +94,20 @@ header {
 .custom-shape-divider-top-1657888838 .shape-fill {
     fill: #86fa88;
 }
+
+.sign-in-btn {
+	position: absolute;
+	top: 15%;
+	border: solid #ccf2fc 2px;
+	background-color:#61DBFB;
+	color:#000;
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	transition: ease 0.5s;
+}
+
+.sign-in-btn:hover {
+	filter: brightness(1.25);
+	animation: shake 2s infinite;
+}

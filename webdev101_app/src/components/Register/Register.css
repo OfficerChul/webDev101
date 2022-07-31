@@ -1,0 +1,11 @@
+.register {
+    display: flex;
+    justify-content: center;
+    bottom: 50px;
+    position: relative;
+}
+
+.regi-h1 {
+    position: relative;
+    bottom: 40px;
+}

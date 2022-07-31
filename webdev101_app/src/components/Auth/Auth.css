@@ -1,0 +1,16 @@
+.Auth {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    position: relative;
+    top: 100px;
+    right: 150px;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
