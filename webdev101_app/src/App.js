@@ -5,11 +5,15 @@ import Body from "./components/Body/Body";
 import Game from "./components/Game/Game";
 import Temp from './components/Temp/Temp';
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'react-bootstrap';
+
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Button>Test</Button>
       <Body />
       <Game />
       <Temp />
