@@ -3,6 +3,7 @@ import "./fonts/BMEULJIROTTF.ttf";
 import Header from "./components/Header/Header";
 import Body from "./components/Body/Body";
 import Game from "./components/Game/Game";
+import Temp from './components/Temp/Temp';
 import React from "react";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       <Header />
       <Body />
-      <Game/>
+      <Game />
+      <Temp />
       <div class="custom-shape-divider-bottom-1657889275">
         <svg
           data-name="Layer 1"
