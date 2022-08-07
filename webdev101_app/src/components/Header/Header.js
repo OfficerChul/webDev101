@@ -3,7 +3,8 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import { auth } from "../../firebase-config";
 import { onAuthStateChanged, signOut} from "firebase/auth";
-import { async } from "@firebase/util";
+
+
 
 export default function Header() {
   const [position, setPosition] = useState(0);
