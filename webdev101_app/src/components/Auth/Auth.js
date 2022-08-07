@@ -1,15 +1,29 @@
 import React, { useState } from "react";
 import "./Auth.css";
-import { Container, Button, Form } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../../firebase-config';
 
 export default function Auth() {
   const [loginEmail, setLoginEmail] = useState("");
   const [loginPassword, setLoginPassword] = useState("");
 
-  const login = async () => {};
+  const login = async () => {
+    try {
+      const user = await signInWithEmailAndPassword(
+        auth,
+        loginEmail,
+        loginPassword
+      );
+      console.log('pressed login button');
+      console.log(user);
+    } catch (error) {
+      console.log(error.message);
+      console.log(error.code);
+    }
+  };
 
-  const logout = async () => {};
 
   return (
     <div className="Auth">
@@ -22,6 +36,7 @@ export default function Auth() {
             placeholder="Enter email"
             onChange={(event) => {
               setLoginEmail(event.target.value);
+              console.log(event.target.value);
             }}
           />
           <Form.Text className="text-muted">
@@ -36,12 +51,13 @@ export default function Auth() {
             placeholder="Password"
             onChange={(event) => {
               setLoginPassword(event.target.value);
+              console.log(event.target.value);
             }}
           />
         </Form.Group>
         <div className="login-btn">
-          <Button variant="primary" type="submit">
-            Login
+          <Button variant="primary" type="submit" onClick={login}>
+            Log In
           </Button>
           <Link to="/webDev101/auth/register">
             <Button variant="primary" type="submit">
@@ -54,3 +70,4 @@ export default function Auth() {
     </div>
   );
 }
+

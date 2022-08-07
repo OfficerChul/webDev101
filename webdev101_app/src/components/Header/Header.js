@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import { auth } from "../../firebase-config";
+import { onAuthStateChanged, signOut} from "firebase/auth";
+import { async } from "@firebase/util";
 
 export default function Header() {
   const [position, setPosition] = useState(0);
@@ -14,6 +17,29 @@ export default function Header() {
     };
   }, []);
   console.log((100 - position / 4) / 100);
+
+  const [user, setUser] = useState({});
+  const [loginStatus, setLoginStatus] = useState("Sign In");
+
+  onAuthStateChanged(auth, (currentUser) => {
+    if (currentUser == null) {
+      setLoginStatus("Sign In");
+    } else {
+      setLoginStatus("Sign Out");
+    }
+    setUser(currentUser);
+  });
+
+
+
+
+  const registerManager = async () => {
+    if (loginStatus.localeCompare("Sign Out") === 0) {
+      await signOut(auth);
+      console.log("HIHI");
+      
+    }
+  };
 
   return (
     <div>
@@ -65,8 +91,15 @@ export default function Header() {
             <h3 className="subtitle">by Kyochul Jang</h3>
           </div>
         </Link>
-              {/* <h1>Position: {position}</h1> */}
-              <Link to='/webDev101/auth'><button className='sign-in-btn'>Sign in</button></Link>
+        {/* <h1>Position: {position}</h1> */}
+        <div className="profile-wrapper">
+          <Link to="/webDev101/auth">
+            <button className="sign-in-btn" onClick={registerManager}>
+              {loginStatus}
+            </button>
+          </Link>
+          <h7 className="user-profile">{user?.email}</h7>
+        </div>
       </header>
     </div>
   );
