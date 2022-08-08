@@ -12,45 +12,11 @@
 
 ## 📖 This Week
 
-- Firebase
-    - Authentication
 - CSS tools
     - Bootstrap
-    - Tailwind
     - Codepen
 - Deploy Website
 
-## 🔥 Firebase Authentication
-
-1. Install firebase using npm
-```
-npm install firebase
-```
-
-2. Create a file called `firebase-config.js` and paste the following line of code
-```
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCrllKM59OO2dkCnh_mmMnfjf3X13NCY54",
-  authDomain: "webdev101-8f1c7.firebaseapp.com",
-  projectId: "webdev101-8f1c7",
-  storageBucket: "webdev101-8f1c7.appspot.com",
-  messagingSenderId: "705339352664",
-  appId: "1:705339352664:web:52292b8bb2ef0c3b118c2d",
-  measurementId: "G-5K4Y0YFWGR"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-```
 ## 👩‍🔬 CSS Tools
 
 ### Bootstrap
@@ -100,21 +66,38 @@ In bootstrap, you will use `className` to change the styling, not the `css` file
 
 > There are a lot of other functions than variant. You need to Google it.
 
-4. Then this button will be added in your website
+4. Then this button will be added in your websitev
 
 <p align='center'><img src='./images/bootstrap_btn.jpg' /></p>
-
-### Tailwind
-
-#### What is Tailwind
-
-#### How to install and use it?
 
 ### Codepen
 
 #### What is Codepen
 
+```
+CodePen is a social development environment for front-end designers and developers.
+
+Many developers shared their web style and degin on the platform which you can use.
+Most projects in the codepen is using MIT Licensed.
+```
+
 #### How to install and use it?
+```
+You don't have to install anything to use the projects in codepen.
+
+You just need to copy the code from one of the codepen projects and make changes according to your projects.
+```
+
+1. Search any design you want
+<p align='center'><img src='./images/codepen1.jpg'/></p>
+
+2. Choose any projects
+<p align='center'><img src='./images/codepen2.jpg'/></p>
+
+3. Copy HTML, CSS, JavaScript codes from the codepen and paste them into your project.
+<p align='center'><img src='./images/codepen3.jpg'/></p>
+
+## Deploy Webstie
 
 
 ## 🏠 Exercise
