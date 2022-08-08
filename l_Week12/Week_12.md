@@ -97,7 +97,46 @@ You just need to copy the code from one of the codepen projects and make changes
 3. Copy HTML, CSS, JavaScript codes from the codepen and paste them into your project.
 <p align='center'><img src='./images/codepen3.jpg'/></p>
 
-## Deploy Webstie
+## 😋 Deploy Webstie
+
+```
+If you finished creating your website, what you should do now is deploy your website by hosting server.
+
+In my tutorial, we are going to use Github Pages which is a deploy service of GitHub.
+```
+
+### How to deploy website
+
+1. Since our website is not a static website, we need to use other library called ghpages.
+
+install ghpages with the following command:
+```
+npm install gh-pages --save-dev
+```
+
+2. Once you finished install gh-pages, move your terminal to `package.json` file and add the following codes.
+
+```
+"homepage": "https://officerchul.github.io/webDev101/",
+```
+like this
+<p align='center'><img src='./images/ghpages1.jpg'/></p>
+
+and<br />
+```
+"scripts": {
+  //...
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+<p align='center'><img src='./images/ghpages2.jpg'/></p>
+
+> don't forget to put `,`, comma, at the end of the code
+
+3. Enter `npm run deploy` command to update your code in the server
+
+4. 
 
 
 ## 🏠 Exercise
